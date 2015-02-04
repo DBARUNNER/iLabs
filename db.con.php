@@ -1,6 +1,19 @@
 <?php
 session_start();
 include 'conf/conn.php'; 
+$name=$_POST['firstname']." ".$_POST['lastname'];
+$em="Dear $name, 
+
+This is an automatic email to confirm that you have successfully processed your registration for participating at iLabs 2015. The iLabs team will review your application and get back to you soon.
+
+Thank you for your interest in taking part at iLabs 2015. Please, feel free to let us know if you have any questions, suggestions or require any information. 
+
+Sincerely, 
+iLabs 2015 Team
+Tel: ‎+93 788 161 1862‎ 
+Email: http://ilabs.technation.af
+Facebook: https://fb.com/ilabs.af
+Twitter: https://twitter.com/KabulLab";
 
 if(isset($_POST['Submit'])){
 $firstname=$_POST['firstname'];
@@ -10,7 +23,8 @@ $emailadress=$_POST['email'];
 $occopation=$_POST['occopation'];
 $company=$_POST['company'];
 $language=$_POST['lan1'].', '.$_POST['lan2'].', '.$_POST['lan3'].', '.$_POST['lan4'];
-$place=$_POST['place'];
+$location=$_POST['location'];
+$back=$_POST['back'];
 $comment1=$_POST['pre-lab1'];
 $comment2=$_POST['intrest'];
 $comment3=$_POST['social'];
@@ -38,7 +52,7 @@ else{
 	header("location:index.php#part");
 	}
 	else{
-$query="INSERT INTO prtable VALUES(NULL ,'$firstname','$lastname','$phonnumber','$emailadress','$occopation','$company','$language','$place','$comment1','$comment2','$comment3','$comment4')";
+$query="INSERT INTO prtable VALUES(NULL ,'$firstname','$lastname','$phonnumber','$emailadress','$occopation','$company','$language','$comment1','$comment2','$comment3','$comment4','$location','$back')";
 $insert_query = mysql_query($query,$con);
 if($insert_query)
 {
@@ -52,7 +66,8 @@ if($insert_query)
 		$_SESSION['in']="";
 		$_SESSION['social']="";
 		$_SESSION['prob']="";
-	$_SESSION['success']="<div id='divofreg' >Dear $firstname $lastname you have Successfully Resgistered!</div>";
+	$_SESSION['success']="<div id='divofreg' >Dear $firstname $lastname you have successfully submitted a registration form for review by iLabs. We will get back asap!</div>";
+	mail($emailadress, "iLabs-Conformation", $em, "From:" . "ilabs@technation.af");
 	header("location:index.php#part");
 }
 else{

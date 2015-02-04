@@ -1,3 +1,4 @@
+<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 <?php
 include 'conf/conn.php'; 
 if(isset($_GET['name'])){
@@ -8,7 +9,7 @@ $message=$_GET['message'];
 if ($_GET['name']!='' && $_GET['email']!='' && $_GET['message']!='') {
 if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$message."')")){
 	echo $name." Thank you for contacting us! ";
-	if(mail("abdullah.rahemee20@gamil.com ", "$name ilabs contact", $message, "From:" . $email))
+	if(mail("ilabs@technation.af ", "$name ilabs contact", $message, "From:" . $email))
 	{echo "done".mysql_error();}
 	else{echo "not done";}
 }else{
@@ -19,12 +20,12 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 }
 }else{
 ?>
-
+<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 <!DOCTYPE html>
 <html lang="en">
 
 	<head>
-
+<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +33,7 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 		<meta name="author" content="Powered by TechNation's TechLabs">
 
 		<title>-- Kabul Innovation Lab--</title>
-
+<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 		<!-- Bootstrap Core CSS -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/gsdk-base.css">

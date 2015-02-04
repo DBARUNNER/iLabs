@@ -542,14 +542,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Noorin Khuja</b></h2>
+        <h2 class="modal-title" id="myModalLabel"><b>Noorin Khuja Eshaan</b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
           <div class="col-md-8 col-sm-8">
             <p class="lead">
-              
+              Noorin has obtained her Bachelors from Computer Science Faculty of Kabul University in Afghanistan and has obtained her Masters In Internet Systems and E-Business from faculty of Computing Sciences of Durham University in England. She works at Internews as Innovation Program Coordinator.
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -559,8 +559,8 @@
         
         <!--Social  -->
         <div class="text-left center-block">
-          <a href="" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
-          <a href="" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+          <a href="https://www.linkedin.com/profile/view?id=102530295&authType=NAME_SEARCH&authToken=fsA5&locale=en_US&trk=tyah2&trkInfo=idx%3A1-1-1%2CtarId%3A1422539059964%2Ctas%3Anoorin+ " target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="https://twitter.com/EshaanNoorin" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
         </div>
         <!-- /Social -->
         
@@ -876,7 +876,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-8">
             <p class="lead">
-              Zuallah Momand is instructor in kabul university, computer science faculty, Has 3years experiences in programming, web application development, mobile application development.Ziuallah Momand works in TechNation as web engineer.
+              Ziaullah Momand is instructor in kabul university, computer science faculty, Has 3years experiences in programming, web application development, mobile application development. Ziuallah Momand works in TechNation as web engineer.
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1351,12 +1351,9 @@ He has developed web and mobile applications for Technation Afghanistan.
         
         <!--Social  -->
         <div class="text-left center-block">
-          
-          <a href="https://www.facebook.com/khawajahamed.seddiqi"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a> 
           <a href="https://www.linkedin.com/in/seddiqi" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
           <a href="https://twitter.com/SeddiqiHamed" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
           <!-- <a href="#"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a> -->
-          <a href="mailto:hamed.seddiqi123@gmail.com"><i id="social" class="fa fa-envelope fa-3x social-em"></i></a>
         </div>
         <!-- /Social -->
         
@@ -1432,7 +1429,7 @@ He has developed web and mobile applications for Technation Afghanistan.
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
-            <img src="img/Nooria Ahmadi.jpg" />
+            <img src="img/ava.png" />
           </div>
         </div>
         
@@ -1560,17 +1557,14 @@ He has developed web and mobile applications for Technation Afghanistan.
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
-            <img src="img/abdullah.jpg" />
+            <img src="img/abdullah.JPG" />
           </div>
         </div>
         
         <!--Social  -->
         <div class="text-left center-block">
-          <a href="https://www.facebook.com/abdullah.rahemee20"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
-          <a href="https://www.linkedin.com/profile/view?id=321360424&trk=nav_responsive_tab_profile" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="https://af.linkedin.com/in/abrahimee" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
           <a href="https://twitter.com/abdullahrahemee" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
-          <a href="https://plus.google.com/u/0/103711691594458003472/posts"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
-          <a href="mailto:abdullah_rahimi@rocketmail.com"><i id="social" class="fa fa-envelope fa-3x social-em"></i></a>
         </div>
         <!-- /Social -->
         
@@ -1622,3 +1616,369 @@ He has developed web and mobile applications for Technation Afghanistan.
   </div>
  </div>
 <!-- /policy-->
+
+
+
+<!-- download -->
+ <div class="modal fade" id="down" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title text-center" id="myModalLabel"><b>Download Your Prefered Language</b></h2>
+        
+      </div>
+      <div class="modal-body" style="height:70%;">
+      <br><br>
+        <div class="row">
+          <h5 class="text-center">In which language do you want to download?</h5>
+        </div>
+        <br>
+        <div class="row" >
+      <div class="col-md-offset-3">
+    <ul class="ds-btn">
+     <li>
+             <a class="btn btn-lg btn-info" href="upload/iLabs_Call for Application_En.pdf">
+          <i class="fa fa-download fa-3x pull-left"></i><span><b>In<br><small>English </small></b></span></a> 
+            
+        </li>
+        <li>
+             <a class="btn btn-lg btn-primary" href="upload/iLabs_Call for Application_Ps.pdf">
+          <i class="fa fa-download fa-3x pull-left"></i><span>In<br><small>Pashto</small></span></a> 
+            
+        </li>
+        <li>
+             <a class="btn btn-lg btn-warning " href="upload/iLabs_Call for Application_Dr.pdf">
+         <i class="fa fa-download fa-3x pull-left"></i><span>In<br><small>Dari</small></span></a> 
+            
+        </li>
+    </ul>
+    </div>
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /Download-->
+
+
+
+<!-- ghayor -->
+ <div class="modal fade" id="ghayor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Abdul Ghayoor Bawary</b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              Abdul Ghayoor Bawary is the Founder /CEO of Experts Valley, also has found two more companies back in 2009 & 2012 as UPLS & Cactus Technologies respectively, Ghayoor has more than 8 years of Professional Experience in the field of Technology with various Local and International Organizations, and 4 years of Entrepreneurship skills. He also currently works as an ISP Engineer with MultiNet ISP AF.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/ghayoor.jpg" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">          
+          <a href="http://linkd.in/PkzJeQ" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="https://twitter.com/bawary1" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /ghayor-->
+
+<!-- naikbeen -->
+ <div class="modal fade" id="naikbeen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Naikbeen Naikpay </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              Naikbeen Naikpay has more than 6 years of working experience in Information Technology. Psychology & Educational Science Graduate of Kabul University and holds Diploma in Information technology. He is CTO of RN Technologies since 2012 and Founder & CEO of SmartMaktab.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/naikbeen.jpg" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">        
+          <a href="af.linkedin.com/in/naikbeennaikpay/" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="twitter.com/naikbeen" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /naikbeen-->
+
+<!-- jamshid -->
+ <div class="modal fade" id="jamshid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Jamshid Hashimi </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              Jamshid Hashimi is CEO/Co-Founder at CodeZone. He has work experience of more than 6 years in system, software and web application development. Beyond CodeZone, Mr. Hashimi is the founder of the biggest developer community in Afghanistan, CodeWeekend, Global Web Manager and Executive team member at Afghan Professional Network (APn) and Apps for Good Expert at Apps for Good open-source education technology movement based in London.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/jamshid.jpg" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="https://af.linkedin.com/in/jamshidhashimi" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="https://twitter.com/jamshidhashimi" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /jamshid-->
+
+
+<!-- halim -->
+ <div class="modal fade" id="halim" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Halim Fida </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/ava.png" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /halim-->
+
+
+<!-- kakar -->
+ <div class="modal fade" id="kakar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Sanzar Kakar </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/ava.png" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /kakar-->
+
+
+<!-- mohib -->
+ <div class="modal fade" id="mohib" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Hamdullah Mohib </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/ava.png" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /mohib-->
+
+<!-- israr -->
+ <div class="modal fade" id="israr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Israr Ahmad Khan </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/ava.png" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="" target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /israr-->
+
+<!-- asad -->
+ <div class="modal fade" id="asad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel"><b>Asad Hasan </b></h2>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p class="lead">
+              Mr. Asad Hasan is Communications, Online & Digital Media Expert who has almost 16 years qualifying experience in different forms of multimedia such as campaign communications, electronic & ads communications, online, social communications & digital print communications. He also has experience in building online & community presence for organizations via multimedia, imagery, websites, illustration & other forms of advertisement designing, development & implementation.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/asad.jpg" />
+          </div>
+        </div>
+        
+        <!--Social  -->
+        <div class="text-left center-block">
+          <a href="https://af.linkedin.com/in/asadhasankbl" target="_blank"><i id="social" class="fa fa-linkedin-square fa-3x social-tw"></i></a>
+          <a href="https://twitter.com/asadhasankbl " target="_blank"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+        </div>
+        <!-- /Social -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+<!-- /asad-->
