@@ -108,44 +108,10 @@ $(document).ready(function(){
 
 		});
 	});
-		
-		$(document).ready(function() {
-			var clock;
 
-			clock = $('.kabul').FlipClock({
-		        clockFace: 'DailyCounter',
-		        autoStart: false,
-		        callbacks: {
-		        	stop: function() {
-		        		$('.message').html('The clock has stopped!')
-		        	}
-		        }
-		    });
-				    
-		    clock.setTime(220880);
-		    clock.setCountdown(true);
-		    clock.start();
 
-		});
-		$(document).ready(function() {
-			var clock;
+// Media section
 
-			clock = $('.herat').FlipClock({
-		        clockFace: 'DailyCounter',
-		        autoStart: false,
-		        callbacks: {
-		        	stop: function() {
-		        		$('.message').html('The clock has stopped!')
-		        	}
-		        }
-		    });
-				    
-		    clock.setTime(220880);
-		    clock.setCountdown(true);
-		    clock.start();
-
-		});
-
-		$(function(){
+$(function(){
 $('a[title]').tooltip();
 });
