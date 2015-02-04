@@ -92,8 +92,8 @@ else {
 <!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-	<body data-spy="scroll" dir="<?php echo $dir; ?>">
-		<div class="container" id="dir="<?php echo $dir; ?>"con" style="background-color:#eee;">
+	<body data-spy="scroll" dir="<?php echo $dir; ?>"s>
+		<div class="container" id="dir="<?php echo $dir; ?>"scon" style="background-color:#eee;">
 							<!-- Nav bar Section -->
 				<?php 
 	if(isset($_GET['lang'])) {
@@ -177,16 +177,18 @@ else {
 				</div>
 				<a class="btn btn-primary btn-outline" href="upload/iLabs_Call for Application_En.pdf" target="_blank" ><i class="fa fa-download"></i>	Download iLabs Overview</a><br><br>
 				<a href="about.php?ab=about">Read More</a>
+				<!-- Institut div -->
+
 				<div class="row">
-				<h3 >Institutions Behind</h3>
+				<h3 ><?php echo $inst1; ?></h3>
 				<div class="separator-2"></div>
 				<div class="row">
-				<p>Organized by:</p>
+				<p><?php echo $inst2; ?></p>
 			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-info">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=technation">more</a>								
+							<a href="about.php?ab=technation"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -194,7 +196,7 @@ else {
 							<img src="img/technation.png">
 						</h3>
 						<p >
-							Kabul-based tech and consulting firm, transforming Afghanistan into a technology nation.
+							<?php echo $inst3; ?>
 						</p>
 					</div>
 				</div>
@@ -203,16 +205,16 @@ else {
 				<div class="offer offer-radius offer-default">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=herat">more</a>								
+							<a href="about.php?ab=herat"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
 						<h3 class="lead">
-							<img src="img/Herat Host.png" style="width: 20%;"> Herat Host
+							<img src="img/Herat Host.png" style="width: 20%;"> <?php echo $inst4; ?>
 						</h3>						
 						<p>
-							Herat-based software development firm building innovative software products.
-						</p>
+							<?php echo $inst5; ?>
+					    </p>
 					</div>
 				</div>
 			</div>
@@ -220,15 +222,15 @@ else {
 				<div class="offer offer-radius offer-women">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=women">more</a>								
+							<a href="about.php?ab=women"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
 						<h3 class="lead">
-							<img src="img/twlogo.png"> TechWomen
+							<img src="img/twlogo.png"> <?php echo $inst6; ?>
 						</h3>						
 						<p>
-							Network of women in tech, building their leadership and professional skills
+							<?php echo $inst7; ?>
 						</p>
 					</div>
 				</div>
@@ -236,11 +238,11 @@ else {
         </div>		
         <div class="row">
 				<p>Supported by:</p>
-			<div class="col-md-4 col-sm-6 col-md-offset-2">
+			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-primary">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=internews">more</a>								
+							<a href="about.php?ab=internews"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -248,38 +250,34 @@ else {
 							<img src="img/internews.png">
 						</h3>
 						<p >
-							International non-profit empowering local media worldwide.<br><br>
+							<?php echo $inst8; ?><br><br>
 						</p>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-md-4 col-sm-6 col-md-offset-2">
+			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-warning">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=part">more</a>								
+							<a href="about.php?ab=part"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
 						<h3 class="lead">
 							<img src="img/part.png">
-						</h3>			
-						<br>
-						<br>
-						<br>
-						<br>		
+						</h3>						
 						<p>
-							Helping people build better lives and more durable futures, community by community.<br>
+							<?php echo $inst9; ?><br>
 							<br>
 						</p>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-danger">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=usid">more</a>								
+							<a href="about.php?ab=usid"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -287,7 +285,7 @@ else {
 							<img src="img/USID.png">
 						</h3>						
 						<p>
-							Ending extreme global poverty and enabling resilient, democratic societies to realize their potential
+						<?php echo $inst10; ?>
 						</p>
 					</div>
 				</div>
@@ -296,17 +294,16 @@ else {
 				</div>
 			</div>
 		</section>
-
-		<!-- Team section -->
+		<!-- Team Section -->
 		<section id="teams" class="team-section" data-animation-effect="fadeInUpSmall" data-effect-delay="300">
-				<div class="page-header"><h1>Team</h1><p>The iLabs team is comprised of leading individuals from business, technology and social sectors. Meet some of our awesome team members</p></div>
+				<div class="page-header"><h1><?php echo $team1; ?></h1><p><?php echo $team2; ?></p></div>
 
 				<!-- Steering -->
 <!--Heading-->
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ">
-            <h3 style="">Steering Committee</h3><div class="separator-2"></div><p style="display:inline;">Bringing together representatives from partner institutions, the project steering committee provides strategic support to the iLabs.</p>
+            <h3 style=""><?php echo $team3; ?></h3><div class="separator-2"></div><p style="display:inline;"><?php echo $team4; ?></p>
              
           </div>
         </div>
@@ -322,14 +319,14 @@ else {
                   <div class="overlay" href="#" data-toggle="modal" data-target="#Bronwyn">
                   <br><br>
                     <p>
-					Civil Society and Media Manager at Internews</p>
+					<?php echo $team5; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#Bronwyn">Bronwyn Jones<br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#Bronwyn"><?php echo $team6; ?><br><br></a></h3>
               </div>
           </div>
  <!-- /Jones -->
@@ -342,14 +339,14 @@ else {
                   <img src="img/omarphoto.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#omar">
                   <br><br><br>
-                    <p>President at TechNation</p>
+                    <p><?php echo $team7; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/omansari/"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/CyberMullah"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#omar">Omar Mansoor<br> Ansari </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#omar"><?php echo $team8; ?></a></h3>
               </div>
             </div>
 <!-- /mansoor ansari -->
@@ -360,14 +357,14 @@ else {
                   <img src="img/Noorin.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#noorin">
                   <br><br>
-                    <p>Innovation Program Coordinator at Internews</p>
+                    <p><?php echo $innovation; ?>‏</p>
                       <ul class="social-links clearfix">
-                      <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=102530295&authType=NAME_SEARCH&authToken=fsA5&locale=en_US&trk=tyah2&trkInfo=idx%3A1-1-1%2CtarId%3A1422539059964%2Ctas%3Anoorin+ "><i class="fa fa-linkedin"></i></a></li>
-                      <li class="twitter"><a target="_blank" href="https://twitter.com/EshaanNoorin"><i class="fa fa-twitter"></i></a></li>
+                      <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                      <li class="twitter"><a target="_blank" href="h"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#noorin">Noorin Khuja<br>Eshaan</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#noorin"><?php echo $team9; ?>‏<br><br></a></h3>
               </div>
             </div>
 <!-- /noorin -->
@@ -381,7 +378,7 @@ else {
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h3 >Management</h3><div class="separator-2"></div><p style="display:inline;">Led by TechNation, the management team includes experts with background in industry and academia.</p>
+            <h3 ><?php echo $team10; ?>‏</h3><div class="separator-2"></div><p style="display:inline;"><?php echo $team11; ?></p>
              
           </div>
         </div>
@@ -399,14 +396,14 @@ else {
                   <img src="img/baseerphoto.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#baseer">
                   <br><br><br>
-                    <p>Education Manager</p>
+                    <p><?php echo $team12; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/bbaheer"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/bbaheer"><i class="fa fa-twitter"></i></a></li>                   
                 </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#baseer">Baseer Ahmad<br> Baheer</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#baseer"><?php echo $team13; ?></a></h3>
               </div>
           </div>
 <!-- /Baseer Baheer -->
@@ -417,14 +414,14 @@ else {
                   <img src="img/zia.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#zia">
                   <br><br><br>
-                    <p>Technology Manager</p>
+                    <p><?php echo $team14; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/Zia12mommand"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#zia">Ziaullah <br>Momand</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#zia"><?php echo $team15; ?></a></h3>
               </div>
           </div>
 <!-- /Ziaullah  -->
@@ -435,14 +432,14 @@ else {
                   <img src="img/khawaja.JPG" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#khwaja">
                   <br><br><br>
-                    <p>Events Manager</p>
+                    <p><?php echo $team16; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/seddiqi"><i class="fa fa-linkedin"></i></a></li>
                       <li class="facebook"><a target="_blank" href="https://www.facebook.com/khawajahamed.seddiqi"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#khwaja">Khawaja Hamed <br> Seddiqi</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#khwaja"><?php echo $team17; ?></a></h3>
               </div>
           </div>
  <!-- /khawaja  -->
@@ -454,14 +451,14 @@ else {
                   <img src="img/massooud.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#mass">
                   <br><br>
-                    <p>Promotion Manager</p>
+                    <p><?php echo $team18; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mass">Massoud <br>  Asgharzada</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mass"><?php echo $team19; ?></a></h3>
               </div>
           	</div>
 <!-- /Massound  -->
@@ -474,14 +471,14 @@ else {
                   <img src="img/elham.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#elham">
                   <br><br>
-                    <p>Partnerships Officer</p>
+                    <p><?php echo $team20; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#elham">Elham<br> Kohistani<br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#elham"><?php echo $team21; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /elham -->
@@ -493,14 +490,14 @@ else {
                   <img src="img/shabana.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#shabana">
                   <br>
-                    <p>Community Officer</p>
+                    <p><?php echo $team22; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=196274210&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=" https://twitter.com/shabanamansoor1"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#shabana">Shabana<br> Mansoory </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#shabana"><?php echo $team23; ?></a></h3>
               </div>
           </div>
  <!-- /Shabana Mansoory  -->
@@ -511,14 +508,14 @@ else {
                   <img src="img/freshta.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#freshta">
                   <br><br><br>
-                    <p>Press Officer</p>
+                    <p><?php echo $pressoff; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#freshta">Freshtah <br>Hemmati <br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#freshta">Freshtah Hemmati <br><br></a></h3>
               </div>
             </div>
 <!-- /freshta -->
@@ -526,17 +523,17 @@ else {
             <div class="col-md-2 col-sm-3">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/abdullah.JPG" alt="">
+                  <img src="img/abdullah.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#rahimee">
                   <br><br><br>
-                    <p>Web Officer</p>
+                    <p><?php echo $team26 ?></p>
                     <ul class="social-links clearfix">
-                      <li class="linkedin"><a target="_blank" href="https://af.linkedin.com/in/abrahimee"><i class="fa fa-linkedin"></i></a></li>
+                      <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=321360424&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/abdullahrahemee"><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#rahimee">Abdullah<br> Rahimee<br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#rahimee"><?php echo $abdula; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /abullah -->
@@ -552,7 +549,7 @@ else {
 
         <div class="row">
           <div class="col-lg-12">
-            <h3 style="">Mentors</h3><div class="separator-2"></div><p style="display:inline;">Mentors are leading technology and social experts having diverse knowledge and skills.</p>
+            <h3 style=""><?php echo $mentor1; ?></h3><div class="separator-2"></div><p style="display:inline;"><?php echo $mentor2; ?></p>
              
           </div>
         </div>
@@ -569,14 +566,14 @@ else {
                   <img src="img/asmat.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#asmat">
                   <br>
-                    <p>Professional Development Institute, AUAF </p>
+                    <p><?php echo $mentor3; ?> </p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asmat">Asmat Ullah<br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asmat"><?php echo $mentor4; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /Asmat Ullah -->
@@ -587,15 +584,15 @@ else {
                 <div class="overlay-container">
                   <img src="img/abdulrahman.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#rahman">
-                  <br><br>
-                    <p>Technical Adviser at Herat Host </p>
+                  	<br><br>
+                  	<p><?php echo $mentor14; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#rahman">Abdul Rahman <br>Sherzad</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#rahman"><?php echo $mentor5; ?></a></h3>
               </div>
           </div>
 <!-- /Abdul Rahman  -->
@@ -605,15 +602,15 @@ else {
                 <div class="overlay-container">
                   <img src="img/nasratphoto.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#nasrat">
-                  <br><br><br>
-                    <p>Innovation Activist </p>
+                  	<br><br>
+                  	<p><?php echo $mentor15; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#nasrat">Nasrat <br> Khalid</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#nasrat"><?php echo $mentor6; ?></a></h3>
               </div>
             </div>
 <!-- /Nasrat -->
@@ -623,16 +620,19 @@ else {
                 <div class="overlay-container">
                   <img src="img/zia.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#zia">
+                  	<br><br>
+                  	<p></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/Zia12mommand"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#zia">Ziaullah <br>Momand</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#zia"><?php echo $mentor7; ?></a></h3>
               </div>
           </div>
 <!-- /Ziaullah  -->
+
 
 </div>
 <div class="row">
@@ -644,14 +644,14 @@ else {
                   <img src="img/asad.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#asad">
                   <br>
-                    <p>Founder/CEO at Sahar Communications </p>
+                    <p><?php echo $asad1; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://af.linkedin.com/in/asadhasankbl  "><i class="fa fa-linkedin"></i></a></li>
                       <li class="facebook"><a target="_blank" href="https://twitter.com/asadhasankbl "><i class="fa fa-facebook"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asad">Asad Hasan<br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asad"><?php echo $asad2; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /asad  -->
@@ -662,14 +662,14 @@ else {
                   <img src="img/jamshid.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#jamshid">
                   <br><br>
-                    <p> CEO & Co-founder at CodeZone</p>
+                    <p> <?php echo $jamashid; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://twitter.com/jamshidhashimi"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="af.linkedin.com/in/jamshidhashimi"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#jamshid">Jamshid <br> Hashimi </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#jamshid"><?php echo $jamshid2; ?></a></h3>
               </div>
           </div>
 <!-- /jamshid  -->
@@ -680,14 +680,14 @@ else {
                   <img src="img/mahmood.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#mahmood">
                   <br><br>
-                    <p>Technical Adviser at Herat Host </p>
+                    <p><?php echo $mahmood1; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://www.de.linkedin.com/pub/mahmood-asgharzada/7a/702/b6b"><i class="fa fa-linkedin"></i></a></li>
                       <li class="facebook"><a target="_blank" href="http://www.facebook.com/mahmood.asgharzada"><i class="fa fa-facebook"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mahmood">Mahmood<br> Asgharzada </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mahmood"><?php echo $mahmood2; ?></a></h3>
               </div>
             </div>
 <!-- /Mahmood  -->
@@ -698,14 +698,14 @@ else {
                   <img src="img/akmal.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#akmal">
                   <br><br>
-                    <p> Founder/CEO ToNext</p>
+                    <p><?php echo $akmal1; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="www.linkedin.com/pub/akmalarzhang"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="www.twitter.com/akeearzhang"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#akmal">Akmal<br> Arzhang </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#akmal"><?php echo $akmal2; ?></a></h3>
               </div>
           </div>
 <!-- /akmal  -->
@@ -718,14 +718,14 @@ else {
                   <img src="img/ghayoor.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#ghayor">
                   <br><br>
-                    <p>Founder/CEO at Experts Valley </p>
+                    <p><?php echo $ghayour1; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://linkd.in/PkzJeQ"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/bawary1"><i class="fa fa-facebook"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ghayor">Abdul Ghayoor<br> Bawary</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ghayor"><?php echo $ghayour2; ?></a></h3>
               </div>
             </div>
 <!-- /ghayor  -->
@@ -737,14 +737,14 @@ else {
                   <img src="img/naikbeen.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#naikbeen">
                   <br><br>
-                    <p>Founder & CEO at SmartMaktab</p>
+                    <p><?php echo $naikbeen1; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="af.linkedin.com/in/naikbeennaikpay/"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="twitter.com/naikbeen"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#naikbeen">Naikbeen <br>Naikpay </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#naikbeen"><?php echo $naikbeen2; ?></a></h3>
               </div>
           </div>
 <!-- /naikbeen  -->
@@ -755,14 +755,14 @@ else {
                   <img src="img/ava.png" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ahmadi">
                   <br><br>
-                    <p> Developer TechNation</p>
+                    <p><?php echo $norya1; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/pub/yaser-akrami/4b/637/51"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="http://herathost.com/twitter.com/#!/yaserakrami"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ahmadi">Nooria <br>Ahmadi </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ahmadi"><?php echo $norya2; ?></a></h3>
               </div>
           </div>
 <!-- /noorai  -->
@@ -773,14 +773,14 @@ else {
                   <img src="img/yaser.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#yaser">
                   <br><br>
-                    <p>Project Manager at Herat Host‏</p>
+                    <p><?php echo $yaser1; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/pub/yaser-akrami/4b/637/51"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="http://herathost.com/twitter.com/#!/yaserakrami"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#yaser">Yaser<br> Akrami </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#yaser"><?php echo $yaser2; ?></a></h3>
               </div>
           </div>
 <!-- /Yaser Akrami  -->
@@ -791,12 +791,13 @@ else {
 
 <!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 
+
 <!-- Judges -->
 <!-- Heading -->
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h3 style="">Judges</h3><div class="separator-2"></div><p style="display:inline;">Judges are influential individuals in their fields and are independent from the organizer.</p>
+            <h3 style=""><?php echo $judges1; ?></h3><div class="separator-2"></div><p style="display:inline;"><?php echo $judges2; ?></p>
              
           </div>
         </div>
@@ -810,14 +811,14 @@ else {
                   <img src="img/asmat.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#asmat">
                   <br>
-                    <p>Professional Development Institute, AUAF </p>
+                    <p><?php echo $judges3; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asmat">Asmat Ullah<br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#asmat"><?php echo $judges4; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /Asmat Ullah -->
@@ -828,17 +829,18 @@ else {
                   <img src="img/ava.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#nooria">
                   <br>
-                    <p>Paywast </p>
+                    <p><?php echo $paywast; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#nooria">Nooria Rezazada <br> Rahim</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#nooria"><?php echo $judges6; ?></a></h3>
               </div>
             </div>
 <!-- /nooria -->
+
 
 <!-- Halim Fida -->
             <div class="col-md-2 col-sm-3">
@@ -852,7 +854,7 @@ else {
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#halim">Halim Fida<br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#halim"><?php echo $halima1; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /Halim Fida -->
@@ -868,7 +870,7 @@ else {
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#kakar">Sanzar Kakar <br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#kakar"><?php echo $sanzar1; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /Sanzar Kakar -->
@@ -895,7 +897,7 @@ else {
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2>Speakers</h2><p>Leaders from governments, industry, civil society and academia converge at iLabs to discuss hot topics around technology and social innovation. </p>
+            <h2><?php echo $speaker1; ?></h2><p><?php echo $speaker2; ?></p>
              <div class="separator-2"></div>
           </div>
         </div>
@@ -905,20 +907,20 @@ else {
       <div class="row grid-space-20">
 
 <!-- Muhammad -->
-           <div class="col-md-2 col-sm-3 col-md-offset-1">
+           <div class="col-md-2 col-sm-3 col-md-offset-3">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/aimal.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#aimal">
                     <br>
-                    <p>Deputy Minister (IT) </p>
+                    <p><?php echo $speaker3; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#aimal">Muhammad <br>Aimal Marjan</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#aimal"><?php echo $speaker4; ?></a></h3>
               </div>
            </div>
 <!-- /Muhammad -->
@@ -929,14 +931,14 @@ else {
                   <img src="img/sharmini.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#sharmini">
                     <br>
-                    <p>Country Director </p>
+                    <p><?php echo $speaker5; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#sharmini">Sharmini<br> Boyle<br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#sharmini"><?php echo $speaker6; ?><br><br></a></h3>
               </div>
            </div>
 <!-- /Sharmini -->
@@ -947,14 +949,14 @@ else {
                   <img src="img/qarar.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#qarar">
                     <br>
-                    <p>Social Activist</p>
+                    <p><?php echo $speaker7; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>                
                 </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#qarar">Majeedullah <br> Qarar</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#qarar"><?php echo $speaker8; ?></a></h3>
               </div>
           </div>
 <!-- /Majeedullah -->
@@ -972,7 +974,7 @@ else {
                     </ul>
                    </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mohib">Hamdullah<br> Mohib<br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#mohib"><?php echo $mohib2; ?><br></a></h3>
               </div>
            </div>
 <!-- /mohib -->
@@ -990,7 +992,7 @@ else {
                 </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#israr">Israr Ahmad<br> Khan</a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#israr"><?php echo $israr; ?></a></h3>
               </div>
           </div>
 <!-- /Majeedullah -->
@@ -1137,7 +1139,7 @@ else {
 
 		<!-- Events Sections -->
 
-		<!-- prelabs Section -->
+	<!-- prelabs Section -->
 		<section id="labs" class="labs-section">
 			<div id="ioe" class="container">
 				<div class="row">
@@ -1148,21 +1150,21 @@ else {
 							</div>
 							<div class="info">
 								<div class="row">
-								<h1 class="text-center">Events</h1>
-									 <p class="text-center" >iLabs events include information sessions known as pre-Labs, and the main innovation labs called iLabs. iLabs closes with a high-level Closing Ceremony and Social Evening.</p>
+								<h1 class="text-center"><?php echo $event1; ?></h1>
+									 <p class="text-center" ><?php echo $event2; ?></p>
 								</div>
 								<div class="row text-center">
-									<div class="col-md-4"><h5><b>PreLabs</b></h5><div class="separator-2"></div>
-									<p class="text-left">Preparatory, information and learning sessions, where participants identify social problems and propose prototyped tech solutions.</p>
-									<a href="about.php?ab=pre">Read More</a>
+									<div class="col-md-4"><h5><b><?php echo $event3; ?></b></h5><div class="separator-2"></div>
+									<p class="text-left"><?php echo $event4; ?></p>
+									<a href="about.php?ab=pre"><?php echo $more; ?></a>
 									</div>
-									<div class="col-md-4"><h5><b>iLabs</b></h5><div class="separator-2"></div>
-									<p class="text-left">Main-Labs, which are the actual iLabs, where various ideas identified in pre-Labs are being transformed into more advanced prototypes, and are vetted by judges.</p>
-									<a href="about.php?ab=lab">Read More</a>
+									<div class="col-md-4"><h5><b><?php echo $event5; ?></b></h5><div class="separator-2"></div>
+									<p class="text-left"><?php echo $event6; ?></p>
+									<a href="about.php?ab=lab"><?php echo $more; ?></a>
 									</div>
-									<div class="col-md-4"><h5><b>Closing, Awards and Social Evening</b></h5><div class="separator-2"></div>
-									<p class="text-left">Discussing issues around social innovation, and its implications for the benefit of Afghanistan.</p>
-									<a href="about.php?ab=close">Read More</a>
+									<div class="col-md-4"><h5><b><?php echo $event7; ?></b></h5><div class="separator-2"></div>
+									<p class="text-left"><?php echo $event8; ?></p>
+									<a href="about.php?ab=close"><?php echo $more; ?></a>
 									</div>
 								</div>
 							</div>
@@ -1172,21 +1174,21 @@ else {
 			</div>
 		</section>
 
-<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
+
 		<section id="project" class="project-section">
 			<div class="container">
 				<div class="row">
 					
-						<h1>Projects</h1>
+						<h1><?php echo $project1; ?></h1>
 						<div class="separator-2"></div>
-					<p>The proposed projects from 2015 are not yet available, but here you can see the iLabs projects from <a href="http://kabulinnovationlab.com/lab-2012/">2012</a> and <a href="http://kabulinnovationlab.com/projects-2013/">2013</a></p>
+					<p><?php echo $project2; ?><a href="http://kabulinnovationlab.com/lab-2012/">2012</a> and <a href="http://kabulinnovationlab.com/projects-2013/">2013</a></p>
 				</div>
 				<br><br>
 				<div class="row">
 		<div class="col-md-3 col-sm-3 col-md-offset-3">
               <div class="box-style-1 white-bg panel ">
                 <div class="overlay-container">
-                <h1>2012</h1>
+                <h1><?php echo $project3; ?></h1>
                   <br>
                    <a href="http://kabulinnovationlab.com/lab-2012/" target="_blank"> <i class="fa fa-file-powerpoint-o"></i></a>
                   </div>
@@ -1195,7 +1197,7 @@ else {
         <div class="col-md-3 col-sm-3">
               <div class="box-style-1 white-bg panel ">
                 <div class="overlay-container">
-                <h1>2013</h1>
+                <h1><?php echo $project4; ?></h1>
                   <br>
                    <a href="http://kabulinnovationlab.com/projects-2013/" target="_blank"> <i class="fa fa-file-powerpoint-o"></i></a>
                   </div>
@@ -1203,112 +1205,7 @@ else {
                 
               </div>
 	</div>
-				<!--<div class="row">
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>Android News</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0257.jpg"alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										1TV Reporting App will feature moderated content from members of the Afghan public. Citizens will be invited to capture images, audio,
-									</p>
-									<p>
-										<a class="btn btn-primary btn-outline" href="" data-toggle="modal" data-target="one" onclick="show('1','com1');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>Tolo News</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0744.jpg" alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										Tolo News’ online elections coverage. This site will maximising interaction and user-driven content, and will include mapping public
-									</p>
-									<p>
-										<a href="" class="btn btn-primary btn-outline" role="button" href="" data-toggle="modal" data-target="two" onclick="show('2','com2');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>Android News</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0745 (1).jpg" alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										8AM news via Android! This new mobile application will customise content from one of Afghanistan’s leading investigative newspapers application
-									</p>
-									<p>
-										<a href="" class="btn btn-primary btn-outline" role="button" href="" data-toggle="modal" data-target="three" onclick="show('3','com3');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>One Tv</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0257.jpg"alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										1TV Reporting App will feature moderated content from members of the Afghan public. Citizens will be invited to capture images, audio
-									</p>
-									<p>
-										<a href="" class="btn btn-primary btn-outline" role="button" href="" data-toggle="modal" data-target="four" onclick="show('4','com4');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>Tolo News</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0744.jpg" alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										Tolo News’ online elections coverage. This site will maximising interaction and user-driven content, and will include mapping public
-									</p>
-									<p>
-										<a href="" class="btn btn-primary btn-outline" role="button" href="" data-toggle="modal" data-target="five" onclick="show('5','com5');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3>Android News</h3>
-							<div class="thumbnail">
-								<img src="img/dsc_0745 (1).jpg" alt="...">
-								<div class="caption">
-									<p class="text-justify">
-										8AM news via Android! This new mobile application will customise content from one of Afghanistan’s leading investigative newspapers
-									</p>
-									<p>
-										<a href="" class="btn btn-primary btn-outline" role="button" href="" data-toggle="modal" data-target="six" onclick="show('6','com6');">Read more</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-					-->
+			
 			</div>
 		</section>
 
@@ -1428,27 +1325,27 @@ else {
 			
 			<div class="container">
 			<div class="row">
-				<h2>Participate</h2>
+				<h2><?php echo $Participate1; ?></h2>
 				<div class="separator-2"></div>
-				<p>iLabs is a free, competitive entry program. We are interested in having the best and brightest minds to join our events. If you are one of them, please fill out our application form. See Eligibility Criteria and Expections from Participants before you start filling out the form.</p>
+				<p><?php echo $Participate2; ?></p>
 			</div>
 			<div class="row">
 			<div class="col-md-offset-1">
     <ul class="ds-btn">
      <li>
              <a class="btn btn-lg btn-info" href="about.php?ab=why">
-          <i class="fa fa-question-circle fa-3x pull-left"></i><span>Why<br><small>Participate? </small></span></a> 
+          <i class="fa fa-question-circle fa-3x pull-left"></i><span><?php echo $Participate3; ?><br><small><?php echo $Participate4; ?></small></span></a> 
             
         </li>
         <li>
              <a class="btn btn-lg btn-primary" href="about.php?ab=select">
-          <i class="fa fa-users fa-3x pull-left"></i><span>Participants<br><small>Selection Criteria</small></span></a> 
+          <i class="fa fa-users fa-3x pull-left"></i><span><?php echo $Participate5; ?><br><small><?php echo $Participate6; ?></small></span></a> 
             
         </li>
         <li>
              <a class="btn btn-lg btn-warning " href="about.php?ab=expect">
-         <i class="fa fa-line-chart fa-3x pull-left"></i><span>Expectations<br><small>From Participants</small></span></a> 
-            <!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
+         <i class="fa fa-line-chart fa-3x pull-left"></i><span><?php echo $Participate7; ?><br><small><?php echo $Participate8; ?></small></span></a> 
+            
         </li>
     </ul>
     </div>
@@ -1480,14 +1377,14 @@ else {
 									<!--        You can switch "ct-wizard-azzure"  with one of the next bright colors: "ct-wizard-blue", "ct-wizard-green", "ct-wizard-orange", "ct-wizard-red"             -->
 
 									<div class="wizard-header">
-										<h3>Participant Nomination Form</h3>
+										<h3><?php echo $Participate9; ?></h3>
 									</div>
 									<ul>
 										<li>
-											<a href="#personal" data-toggle="tab">Personal Info</a>
+											<a href="#personal" data-toggle="tab"><?php echo $Participate10; ?></a>
 										</li>
 										<li>
-											<a href="#occupation" data-toggle="tab">Occupational Info</a>
+											<a href="#occupation" data-toggle="tab"><?php echo $occupation; ?></a>
 										</li>
 									</ul>
 									<form name="myform" action="#" method="get" onsubmit="return chek();">
@@ -1496,18 +1393,19 @@ else {
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-user"></span>
-															<span class="pull-left text-left" id="error1" style="color:red"></span>
-															<input type="text" class="form-control fa fa-user" name="firstname"  id="fname" placeholder="Your first Name" value="<?php if(isset($_SESSION['fname'])){echo $_SESSION['fname'];} ?>" >
+																<span class="fa fa-user"></span>
+																<span class="pull-left text-left" id="error1" style="color:red"></span>
+															<input type="text" class="form-control fa fa-user" name="firstname"  id="fname" placeholder="<?php echo $Participate11; ?>" value="<?php if(isset($_SESSION['fname'])){echo $_SESSION['fname'];} ?>" >
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
-														</div>
+																	<span class="fa fa-user"></span>
+											</div>
 
 														<div class="form-group left-inner-addon required-field-block">
 															<span class="fa fa-user"></span>
 															<span class="pull-left text-left" id="error2" style="color:red"></span>
-															<input type="text" class="form-control fa fa-user" name="lastname" id="lname" placeholder="Your Last Name" value="<?php if(isset($_SESSION['lname'])){echo $_SESSION['lname'];} ?>">
+															<input type="text" class="form-control fa fa-user" name="lastname" id="lname" placeholder="<?php echo $Participate12; ?>" value="<?php if(isset($_SESSION['lname'])){echo $_SESSION['lname'];} ?>">
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
@@ -1516,7 +1414,7 @@ else {
 														<div class="form-group left-inner-addon required-field-block">
 															<span class="fa fa-mobile-phone"></span>
 															<span class="pull-left" id="error3" style="color:red"></span>
-															<input type="tel" class="form-control fa fa-phone" name="phonnumber" id="tel" placeholder="Your Phone Number" value="<?php if(isset($_SESSION['pnum'])){echo $_SESSION['pnum'];} ?>">
+															<input type="tel" class="form-control fa fa-phone" name="phonnumber" id="tel" placeholder="<?php echo $phonno; ?>" value="<?php if(isset($_SESSION['pnum'])){echo $_SESSION['pnum'];} ?>">
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
@@ -1528,13 +1426,13 @@ else {
 														<div class="form-group left-inner-addon required-field-block">
 															<span class="fa fa-envelope"></span>
 															<span class="pull-left" id="error4" style="color:red"></span>
-															<input type="email" class="form-control fa fa-envelope" name="email" id="email" placeholder="Your Email Address" value="<?php if(isset($_SESSION['em'])){echo $_SESSION['em'];} ?>"/>
+															<input type="email" class="form-control fa fa-envelope" name="email" id="email" placeholder="<?php echo $Participate13; ?>" value="<?php if(isset($_SESSION['em'])){echo $_SESSION['em'];} ?>"/>
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
 															<?php
-if(isset($_SESSION['suc']))
-{
+																if(isset($_SESSION['suc']))
+																		{
 															?>
 
 															<div id="onono" class='text-danger pull-left' >
@@ -1548,7 +1446,7 @@ if(isset($_SESSION['suc']))
 														<div class="form-group left-inner-addon required-field-block">
 															<span class="fa fa-tasks"></span>
 															<span class="pull-left" id="error5" style="color:red"></span>
-															<input type="text" class="form-control fa fa-tasks" name="occopation" id="job" placeholder="Occupation/ job title" value="<?php if(isset($_SESSION['occ'])){echo $_SESSION['occ'];} ?>">
+															<input type="text" class="form-control fa fa-tasks" name="occopation" id="job" placeholder="<?php echo $Participate14; ?>" value="<?php if(isset($_SESSION['occ'])){echo $_SESSION['occ'];} ?>">
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
@@ -1556,7 +1454,7 @@ if(isset($_SESSION['suc']))
 														<div class="form-group left-inner-addon required-field-block">
 															<span class="fa fa-globe"></span>
 															<span class="pull-left" id="error6" style="color:red"></span>
-															<input type="text" class="form-control fa fa-globe" name="company" id="company" placeholder="Company/ organization name" value="<?php if(isset($_SESSION['comp'])){echo $_SESSION['comp'];} ?>">
+															<input type="text" class="form-control fa fa-globe" name="company" id="company" placeholder="<?php echo $Participate15; ?>" value="<?php if(isset($_SESSION['comp'])){echo $_SESSION['comp'];} ?>">
 															<div class="required-icon">
 												                <div class="text">*</div>
 												            </div>
@@ -1564,15 +1462,15 @@ if(isset($_SESSION['suc']))
 													</div>
 													<div class="row">
 													<div class="separator-2"></div>
-														<label>Which language are you fluent,i.e. speaking, writing, and reading?</label>
-														<input type="checkbox" name="lan1" value="dari" id="lan1">
+														<label><?php echo $Participate16; ?></label>
+														<input type="checkbox" name="lan1" value="<?php echo $Participate17; ?>" id="lan1">
 														Pashto&nbsp;&nbsp;
-														<input type="checkbox" name="lan2" value="pashto" id="lan2">
+														<input type="checkbox" name="lan2" value="<?php echo $ps; ?>" id="lan2">
 														Dari&nbsp;&nbsp;
-														<input type="checkbox" name="lan3" value="english" id="lan3">
+														<input type="checkbox" name="lan3" value="<?php echo $Participate18; ?>" id="lan3">
 														English&nbsp;&nbsp;
 														<div class="form-group col-md-10 col-md-offset-1">
-															<input type="text" class="form-control" name="lan4" id="other" placeholder="Other Language....">
+															<input type="text" class="form-control" name="lan4" id="other" placeholder="<?php echo $Participate19; ?>">
 															<span class="" id="error7" style="color:red"></span>
 														</div>
 
@@ -1595,28 +1493,22 @@ if(isset($_SESSION['su']))
 											</div>
 											<div class="tab-pane" id="occupation">
 												<div class="row">
-													<div class="form-group pull-left col-sm-6">
-															<label>Where are you interested to attend iLabs?</label> &nbsp;&nbsp;&nbsp;<br>
-															<input type="radio" name="location" value="kabul" checked=""> Kabul &nbsp; <input type="radio" name="location" value="herat"> Herat
-													</div>
-													<div class="form-group pull-left col-sm-6">
-															<label>Please, let us know what background you are coming from?</label>
-															<input type="radio" name="back" value="social worker" checked=""> I am social worker &nbsp; <input type="radio" name="back" value="technologist‏"> I am a technologist‏
-													</div>
-												</div>
-												<div class="row">
 													<div class="col-md-12">
-														<div class="form-group">
-															<textarea class="form-control" rows="2" name="pre-lab1" placeholder="Have you previously participated in events like iLabs? If so, please explain."><?php if(isset($_SESSION['pre'])){echo $_SESSION['pre'];} ?></textarea>
+														<div class="form-group pull-left">
+															<label><?php echo $wherp; ?></label> &nbsp;&nbsp;&nbsp;
+															<input type="radio" name="place" value="kabul" checked="">- Kabul &nbsp; <input type="radio" name="place" value="herat">- Herat
 														</div>
 														<div class="form-group">
-															<textarea class="form-control" rows="2" name="intrest" placeholder="Why are you interested in participating in iLabs 2015?"><?php if(isset($_SESSION['in'])){echo $_SESSION['in'];} ?></textarea>
+															<textarea class="form-control" rows="2" name="pre-lab1" placeholder="<?php echo $Participate20; ?>"><?php if(isset($_SESSION['pre'])){echo $_SESSION['pre'];} ?></textarea>
 														</div>
 														<div class="form-group">
-															<textarea class="form-control" rows="2" name="social" placeholder="How do you think you can contribute to iLabs and social innovation programs in general?"><?php if(isset($_SESSION['social'])){echo $_SESSION['social'];} ?></textarea>
+															<textarea class="form-control" rows="2" name="intrest" placeholder="<?php echo $Participate21; ?>"><?php if(isset($_SESSION['in'])){echo $_SESSION['in'];} ?></textarea>
 														</div>
 														<div class="form-group">
-															<textarea class="form-control" rows="2" name="problem" placeholder="Social problem you might have identified (200 Word)"><?php if(isset($_SESSION['prob'])){echo $_SESSION['prob'];} ?></textarea>
+															<textarea class="form-control" rows="2" name="social" placeholder="<?php echo $Participate22; ?>"><?php if(isset($_SESSION['social'])){echo $_SESSION['social'];} ?></textarea>
+														</div>
+														<div class="form-group">
+															<textarea class="form-control" rows="2" name="problem" placeholder="<?php echo $Participate23; ?>"><?php if(isset($_SESSION['prob'])){echo $_SESSION['prob'];} ?></textarea>
 														</div>
 													</div>
 												</div>
@@ -1624,12 +1516,12 @@ if(isset($_SESSION['su']))
 										</div>
 										<div class="wizard-footer">
 											<div class="pull-right">
-												<input type='button' class='btn btn-next btn-primary btn-outline btn-sm' name='next' value='Next' />
+												<input type='button' class='btn btn-next btn-primary btn-outline btn-sm' name='next' value='<?php echo $Participate27; ?>' />
 
-												<input type='submit' class='btn btn-finish btn-primary btn-outline btn-sm' name='Submit' value='Finish' />
+												<input type='submit' class='btn btn-finish btn-primary btn-outline btn-sm' name='Submit' value='<?php echo $Participate25; ?>' />
 											</div>
 											<div class="pull-left">
-												<input type='button' class='previous btn btn-previous btn-default btn-outline btn-sm' name='previous' value='Previous' />
+												<input type='button' class='previous btn btn-previous btn-default btn-outline btn-sm' name='previous' value='<?php echo $Participate26; ?>' />
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -1643,24 +1535,23 @@ if(isset($_SESSION['su']))
 					<!-- row -->
 			</div>
 		</section>
-<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
+
 		<!-- venue Section -->
 		<section id="venue" class="venue-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-					<h1>Venue </h1>
+					<h1><?php echo $venu1; ?></h1>
 					<div class="separator-2"></div>
-					<p>Information on the venues for Pre-labs and iLabs in Kabul and Herat will be identified later.</p>
-					<p> For inquiries you can email us at <a href="mailto:ilabs@technation.af">ilabs@technation.af</a> or call us on +93 788 161 862‏.</p>
-					
+					<p><?php echo $venu2; ?></p>
+					<p><?php echo $venu3; ?> <a href="mailto:ilabs@technation.af">ilabs@technation.af</a> <?php echo $venu5; ?></p>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		
-			<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
+			
 
 		
 		
@@ -1671,29 +1562,29 @@ if(isset($_SESSION['su']))
 		<section id="past" class="past-section">
 			<div class="container">
 				<div class="page-header">
-					<h1 id="timeline">Past iLabs</h1>
+					<h1 id="timeline"><?php echo $piLab1; ?></h1>
 				</div>
 				<ul class="timeline" >
 					<li>
 						<div class="timeline-badge" >
-							<i class="">2012</i>
+							<i class=""><?php echo $piLab2; ?></i>
 						</div>
 						<div class="timeline-panel" >
 							<div class="timeline-body text-left text-justify">
 								<p>
-									Internews launched the first Innovation Lab in January 2012 with the theme “Tech solutions for social impact”. It was the first event of its kind in Afghanistan, bringing together IT experts and the broader ICT community to network and discuss the emerging environment and build tech-based systems. The 2012 event was a great success, taking place in a dynamic creative and practical environment.<a href="http://kabulinnovationlab.com/lab-2012/"> Read More</a>
+									<?php echo $piLab3; ?><a href="http://kabulinnovationlab.com/lab-2012/"><?php echo $piLab4; ?></a>
 								</p>
 							</div>
 						</div>
 					</li>
 					<li class="timeline-inverted">
 						<div class="timeline-badge warning">
-							<i class="">2013</i>
+							<i class=""><?php echo $piLab5; ?></i>
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-body text-left text-justify">
 								<p>
-									The second Innovation Lab was launched on February 11th, 2013 with a public forum covering Afghanistan’s ICT sector developments, the <a href="http://mcit.gov.af/">MCIT</a>’s mobile and innovation initiatives, 3G and digital platforms. The forum brought together stakeholders from the media, telecommunications and ICT sectors to network and share information relevant to the convergence of technology and media in Afghanistan.<a href="http://kabulinnovationlab.com/"> Read More</a>
+		<?php echo $piLab6; ?><a href="http://mcit.gov.af/"><?php echo $piLab7; ?></a><?php echo $piLab8; ?><a href="http://kabulinnovationlab.com/"><?php echo $piLab4; ?></a>
 								</p>
 							</div>
 						</div>
@@ -1707,22 +1598,22 @@ if(isset($_SESSION['su']))
 		<section id="contact" class="contact-section">
 			<div class="container">
 				<div class="row">
-					<h1 class="text-center">WE ARE HERE</h1>
+					<h1 class="text-center"><?php echo $contact1; ?></h1>
 
 					<div id="map-canvas">
 						<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=technation&amp;sll=34.75064,68.598633&amp;sspn=2.355912,4.938354&amp;t=m&amp;ie=UTF8&amp;hq=technation&amp;hnear=&amp;ll=34.637728,68.89801&amp;spn=0.677933,0.823975&amp;z=9&amp;output=embed"></iframe>
 						<br />
-						<small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=technation&amp;sll=34.75064,68.598633&amp;sspn=2.355912,4.938354&amp;t=m&amp;ie=UTF8&amp;hq=technation&amp;hnear=&amp;ll=34.637728,68.89801&amp;spn=0.677933,0.823975&amp;z=9" style="color:#0000FF;text-align:left">View Map</a></small>
+						<small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=technation&amp;sll=34.75064,68.598633&amp;sspn=2.355912,4.938354&amp;t=m&amp;ie=UTF8&amp;hq=technation&amp;hnear=&amp;ll=34.637728,68.89801&amp;spn=0.677933,0.823975&amp;z=9" style="color:#0000FF;text-align:left"><?php echo $view; ?></a></small>
 					</div>
 					<hr>
-					<div class="col-md-5">
+					<div class="col-md-7">
 					<form>
 						<div class="row form-group">
 							<div class="col-md-5">
-								<input class="form-control" id="c-name" name="name" placeholder="Full Name" required="" type="text">
+								<input class="form-control" id="c-name" name="name" placeholder="<?php echo $fname ?>" required="" type="text">
 							</div>
 							<div class="col-md-7">
-								<input class="form-control" id="c-email" name="email" placeholder="Email" required="" type="email">
+								<input class="form-control" id="c-email" name="email" placeholder="<?php echo $email ?>" required="" type="email">
 							</div>
 						</div>
 						<div class="row form-group">
@@ -1737,62 +1628,49 @@ if(isset($_SESSION['su']))
 
 
 
-<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
+
 
 
 
 						</div>
 						</form>
 					</div>
-					<div class="col-sm-3 col-md-7">
+					<div class="col-sm-3 col-md-5">
 						<address>
-								<p class="mbottom text-center">
-									We would love to talk to you and answer all of your questions
-								</p>						<div class="row">
-							<div class="col-md-4 pull-left text-left">
-								
+							<div class="col-md-6 pull-left text-left">
+								<p class="mbottom text-justify">
+								<?php echo $contact2; ?>
+								</p>
+								<span class="strong"><b><i class="fa fa-home"></i> TechNation Offices</b></span>
+								<br >
+								<?php echo $contact3; ?>
+								<br/>
+								<?php echo $contact4; ?>
+								<br >
+								<?php echo $contact5; ?>
+								<br >
+							</div>
+							<div class="col-md-6 pull-left text-left">
 								<p class="mbottom">
-								<i class="fa fa-phone"></i> +93 788 161 862<br>
+									<i class="fa fa-phone"></i> +93 788 161 862
+								</p>
+								<p class="mbottom">
 									<i class="fa fa-envelope-o"></i><a href="mailto:ilabs@technation.af"> ilabs@technation.af</a>
 									<br >
 									<i class="fa fa-facebook"></i><a href="https://www.facebook.com/iLabs.af"> KabulLab</a>
 									<br >
-									<i class="fa fa-twitter"></i><a href="https://twitter.com/iLabsAf"> @KabulLab</a>
+									<i class="fa fa-twitter"></i><a href="https://twitter.com/KabulLab"> @KabulLab</a>
 									<br >
 									<i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/company/ilabs-afghanistan?report%2Esuccess=MlmG7g_fqFRfD4iVhHgr0FomJDOL3vciIT4v8pi3EYkZnZLjFuJfr4acCeXZnFnMvaat" target="_blank">KabulLab</a>
 									<br>
 									<i class="fa fa-google-plus"></i><a href="https://plus.google.com/u/0/b/117599669345564413256/117599669345564413256/about"> KabulLab</a>
 								</p>
 							</div>
-							<div class="col-md-4 pull-left text-left">
-
-								<b class="text-center">Address in Kabul</b><br><br>
-								<span class="strong"><b><i class="fa fa-home"></i> TechNation Offices</b></span>
-								<br >
-								5th Seelo Street
-								<br/>
-								Dehnaw-e Dehboori
-								<br >
-								Kabul, Afghanistan
-								<br >
-							</div>
-							
-							<div class="col-md-4 pull-left text-left">
-							<b class="text-center">Address in Herat</b><br><br>
-								<span class="strong"><b><i class="fa fa-home"></i> Herat Host Offices</b></span>
-								<br >
-								Roshan Telecom Company Street
-								<br/>
-								4th District
-								<br >
-								 Herat, Afghanistan
-								<br >
-							</div>
-							</div>
 					</div>
 				</div>
 			</div>
 		</section>
+</section>
 
 		<?php
 		include ("includes/modal.php");

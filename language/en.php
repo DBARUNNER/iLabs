@@ -68,20 +68,37 @@ $mentor5="Abdul Rahman <br>Sherzad";
 $mentor6="Nasrat <br> Khalid";
 $mentor7="Ziaullah <br>Momand";
 $mentor8="Mahmood<br> Asgharzada";
-$mentor9="Yaser Akrami";
-$mentor10=" Founder/CEO ToNext";
-$mentor11="Akmal Arzhang ";
-$mentor12="Developer TechNation";
-$mentor13="Nooria Ahmadi ";
-$mentor14="Technical Adviser at Herat Host";
-$mentor15="Innovation Activist";
-$mentor16="Technical Adviser at Herat Host";
-$mentor17="Project Manager at Herat Host";
-$mentor18="Founder/CEO ToNext";
-$mentor19="Developer TechNation";
 
+$asad1="Founder/CEO at Sahar Communications";
+$asad2="Asad Hasan";
 
+$jamshid1="CEO & Co-founder at CodeZone";
+$jamshid2="Jamshid <br> Hashimi ";
 
+$mahmood1="Technical Adviser at Herat Host ";
+$mahmood2="Mahmood<br> Asgharzada ";
+
+$akmal1=" Founder/CEO ToNext";
+$akmal2="Akmal<br> Arzhang";
+$ghayour1="Founder/CEO at Experts Valley";
+$ghayour2="Abdul Ghayoor<br> Bawary";
+$naikbeen1="Founder & CEO at SmartMaktab";
+$naikbeen2="Naikbeen <br>Naikpay ";
+$norya1="Developer TechNation";
+$norya2="Nooria <br>Ahmadi ";
+$yaser1="Project Manager at Herat Host";
+$yaser2="Yaser<br> Akrami";
+$halima1="Halim Fida";
+$halima2="";
+
+$sanzar1="Sanzar Kakar";
+$sanzar2="";
+
+$mohib1="";
+$mohib2="Hamdullah<br> Mohib";
+
+$israr1="";
+$israr2="";
 
 $judges1="Judges";
 $judges2="Judges are influential individuals in their fields and are independent from the organizer.";
