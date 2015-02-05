@@ -123,9 +123,9 @@ else {
 				
 						<img src="img/bulboff.png" width="60" id="myImage" ><div id="herat"></div>
 						<br><br><br><br>
-						<h3>Social and Technology Innovators Creating Tech Solutions for Social Problems.</h3>
+						<h3><?php $iLab1; ?></h3>
 						<br>
-						<a class="btn btn-fill btn-primary btn-wd page-scroll btn-lg" href="#part" onmouseover="changeImage();" onmouseout="changeImage();">JOIN US!</a>
+						<a class="btn btn-fill btn-primary btn-wd page-scroll btn-lg" href="#part" onmouseover="changeImage();" onmouseout="changeImage();"><?php echo $join; ?></a>
 					</div>
 				</div>
 			</div>
@@ -170,13 +170,13 @@ else {
 					</div>
 			</div>
 				<div class="row">
-				<h1>What’s iLabs</h1><br><br>
-				<h3 >About</h3>
+				<h1><?php echo $ilab2; ?></h1><br><br>
+				<h3 ><?php echo $ilab3; ?></h3>
 				<div class="separator-2"></div>
-				<p>Innovation Labs (iLabs) is a social innovation program covering a series of meetings of social and technology actors. They harness technology to solve some of the most challenging social and environmental problems.</p>
+				<p><?php echo $ilabp; ?></p>
 				</div>
-				<a class="btn btn-primary btn-outline" href="upload/iLabs_Call for Application_En.pdf" target="_blank" ><i class="fa fa-download"></i>	Download iLabs Overview</a><br><br>
-				<a href="about.php?ab=about">Read More</a>
+				<a class="btn btn-primary btn-outline" href="upload/iLabs_Call for Application_En.pdf" target="_blank" ><i class="fa fa-download"></i><?php echo $ilab4; ?></a><br><br>
+				<a href="about.php?ab=about"><?php echo $ilab5; ?></a>
 				<!-- Institut div -->
 
 				<div class="row">

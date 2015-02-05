@@ -12,10 +12,12 @@ $sclas="pull-right";
 $language="Select Language";
 $ilab1="Social and Technology Innovators Creating Tech Solutions for Social Problems.";
 $join="JOIN US!";
-$ilab2="iLabs";
+$ilab2="What’s iLabs";
 $ilab3="About";
 $ilabp="Innovation Labs (iLabs) is a social innovation program covering a series of meetings of social and technology actors. They harness technology to solve some of the most challenging social and environmental problems.";
-$ilab4="Read More";
+$ilab4="Download iLabs Overview";
+$ilab5="Read More";
+
 
 $inst1="Institutions Behind";
 $inst2="Organized by:";
@@ -29,6 +31,7 @@ $inst9="Helping people build better lives and more durable futures, community by
 $inst10="Ending extreme global poverty and enabling resilient, democratic societies to realize their potential";
 $more="More";
 
+// Team Section 
 $team1="Team";
 $team2="iLabs team is comprised of leading individuals from business, technology and social sectors. Meet some of our awesome team members";
 $team3="Steering Committee";
@@ -134,7 +137,40 @@ $project3="2012";
 $project4="2013";
 $project5="and";
 
-
+// Secheual Section
+$schel1="Schedule";
+$schel2="Saturday, February 14";
+$schel3="PRE-LAB IN HERAT";
+$schel4="Registration & Networking";
+$schel5="8:30am";
+$schel6="Morning Labs";
+$schel7="9:30am - 12:30pm";
+$schel8="Lunch & Prayer";
+$schel10="12:30pm - 13:30pm";
+$schel11="Afternoon Labs";
+$schel12="13:30pm - 16:30pm";
+$schel13="Closing pre-Lab in Herat";
+$schel14="16:30pm - 17:00pm";
+$schel15="Tuesday, February 17";
+$schel16="MAIN-LAB IN HERAT ";
+$schel17="DAY 1";
+$schel18="Registration & Networking";
+$schel19="8:30am";
+$schel20="";
+$schel21="";
+$schel22="";
+$schel23="";
+$schel24="";
+$schel25="";
+$schel26="";
+$schel27="";
+$schel28="";
+$schel29="";
+$schel30="";
+$schel31="";
+$schel32="";
+$schel33="";
+$schel34="";
 //media Section 
 
 $media1="4";
