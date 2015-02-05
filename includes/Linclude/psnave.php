@@ -1,22 +1,22 @@
-<div class="row" style="margin:0;">
+<div class="row" style="margin:0;font-size:15px;">
 				<div class="col-md-12" >
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#venue" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bank"></i> Venue </a>
+							<a href="#venue" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bank"></i> د آی لبز محل</a>
 						</li>
 						<li>
-							<a href="#past" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-calendar-o"></i> Past iLabs</a>
+							<a href="#past" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-calendar-o"></i>  پخواني آی لبز</a>
 						</li>
 						<li>
-							<a href="#" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bookmark"></i> Resources</a>
+							<a href="#" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bookmark"></i> منابع</a>
 						</li>
 						<li>
-							<a href="#" style="line-height:0px;font-size:12px" class="page-scroll" data-toggle="modal" data-target="#pol"><i class="fa fa-lock"></i> Privacy Policy</a>
+							<a href="#" style="line-height:0px;font-size:12px" class="page-scroll" data-toggle="modal" data-target="#pol"><i class="fa fa-lock"></i> دمحرمیت پاليسي</a>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-left">
 						<li>
-							<a style="line-height:0px;font-size:12px;display:inline;top:4px;" class="page-scroll"><i class="fa"></i>	با ما به تماس شوید!	 &nbsp;<i class="fa fa-phone fa-rotate-270"></i>&nbsp;  862 162  788 93+&nbsp;	</i>&nbsp;<i class="fa fa-envelope"></i>		ilabs@technation.af</a>
+							<a style="line-height:0px;font-size:12px;display:inline;top:4px;" class="page-scroll"><i class="fa"></i>راسره اړيکن شئ!&nbsp;<i class="fa fa-phone fa-rotate-270"></i>&nbsp;  862 162  788 93+&nbsp;	</i>&nbsp;<i class="fa fa-envelope"></i>		ilabs@technation.af</a>
 						<a style="line-height:0px;font-size:12px; display:inline;top:4px;" href="index.php?lang=<?php echo $lk1; ?>"><?php echo $lang1; ?></a><a style="line-height:0px; display:inline;top:4px;">|</a><a style="line-height:0px;font-size:12px;display:inline;top:4px;"  href="index.php?lang=<?php echo $lk2; ?>"><?php echo $lang2; ?></a>
 						
 						</li>	
@@ -39,31 +39,32 @@
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav pull-right" >
+					<ul class="nav navbar-nav pull-right" style="font-size:15px;" >
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden">
 							<a class="page-scroll" href="#page-top"></a>
 						</li>
 						<li class="page-scroll">
-							<a class="page-scroll" href="#part" style="height:52px;">Participate</a>
+							<a class="page-scroll" href="#part" style="height:52px;">ګډون وکړئ
+</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#media" style="height:52px;">Media</a>
+							<a class="page-scroll" href="#media" style="height:52px;">رسنۍ</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#project" style="height:52px;">Projects</a>
+							<a class="page-scroll" href="#project" style="height:52px;">پروژې </a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#labs" style="height:52px;">Events </a>
+							<a class="page-scroll" href="#labs" style="height:52px;">غونډې  </a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#speakers" style="height:52px;">Speakers </a>
+							<a class="page-scroll" href="#speakers" style="height:52px;">مهالوېش  </a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#teams" style="height:52px;">Team</a>
+							<a class="page-scroll" href="#teams" style="height:52px;">ويناوال </a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#ilab" style="height:52px;">iLabs</a>
+							<a class="page-scroll" href="#ilab" style="height:52px;">آی-لبز څه دی</a>
 						</li>
 						<!-- <li>
 							<a class="page-scroll" href="#" style="height:52px;">Press</a>
