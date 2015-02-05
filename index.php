@@ -907,7 +907,7 @@ else {
       <div class="row grid-space-20">
 
 <!-- Muhammad -->
-           <div class="col-md-2 col-sm-3 col-md-offset-3">
+           <div class="col-md-2 col-sm-3 col-md-offset-1">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/aimal.jpg" alt="">
@@ -985,14 +985,14 @@ else {
                   <img src="img/ava.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#israr">
                     <br>
-                    <p>Social Activist</p>
+                    <p><?php echo $israr1; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>                
                 </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#israr"><?php echo $israr; ?></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#israr"><?php echo $israr2; ?></a></h3>
               </div>
           </div>
 <!-- /Majeedullah -->

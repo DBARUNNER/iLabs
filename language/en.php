@@ -97,8 +97,8 @@ $sanzar2="";
 $mohib1="";
 $mohib2="Hamdullah<br> Mohib";
 
-$israr1="";
-$israr2="";
+$israr1="Social Activist";
+$israr2="Majeedullah <br> Israr";
 
 $judges1="Judges";
 $judges2="Judges are influential individuals in their fields and are independent from the organizer.";
