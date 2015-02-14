@@ -6,7 +6,11 @@ $cont2='TechWomen empowers Afghan women to become global leaders and technology 
 $link='http://techwomen.af';
 $sub1='';
 $sub2='';
+$sub3='';
 $cont3='';
 $cont4='';
 $cont5='';
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";
 ?>

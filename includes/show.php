@@ -12,4 +12,6 @@ while ($row=mysql_fetch_array($result)) {
               <h6><small class="text-mute">'.$row["date"].'</small></h6></blockquote>       
             </div><hr> ';
 }
-?>
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";?>

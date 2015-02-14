@@ -11,4 +11,10 @@ $cont2='<ul class="text-left">
 </ul>';
 $cont3='';
 $cont4='';
-$cont5='';?>
+$cont5='';
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";?>

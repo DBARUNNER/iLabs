@@ -2006,13 +2006,18 @@ footer#contact.section {
 	border-color: transparent #f0ad4e transparent transparent;
 	border-color: rgba(255,255,255,0) rgb(58,32,131) rgba(255,255,255,0) rgba(255,255,255,0);
 }
-.shape-text{
+.shape-text {
 	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
 	-ms-transform:rotate(30deg); /* IE 9 */
 	-o-transform: rotate(360deg);  /* Opera 10.5 */
 	-webkit-transform:rotate(30deg); /* Safari and Chrome */
 	transform:rotate(30deg);
-}	
+}
+ div:lang(ps){
+	right: -60px;
+	top: 6px;
+}
+
 .offer-content{
 	padding:0 20px 10px;
 
@@ -2051,7 +2056,41 @@ footer#contact.section {
 	font-size: 12px;
 	margin-top:0;
 }
-
+#error1p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error2p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error3p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error4p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error5p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error6p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#error7p{
+	font-size: 12px;
+	margin-top:27px;
+	font-family:Arial, Helvetica, sans-serif;
+}
 .left-inner-addon {
 				position: relative;
 			}
@@ -2497,4 +2536,16 @@ left: 35%;
     }
 .board {
 	margin-top: 6px;
+}
+div:lang(en){
+	right: -40px;
+	top: 2px;
+}
+div:lang(ps){
+	right: -55px;
+	top: 6px;
+}
+div:lang(da){
+	right: -55px;
+	top: 6px;
 }

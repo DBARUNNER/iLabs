@@ -9,4 +9,7 @@ $cont3='';
 $cont4='';
 $cont5='';
 $link='http://herathost.com/';
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";
 ?>

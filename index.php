@@ -17,7 +17,7 @@ else {
 }
  ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 	<head>
 	<!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
@@ -123,7 +123,8 @@ else {
 				
 						<img src="img/bulboff.png" width="60" id="myImage" ><div id="herat"></div>
 						<br><br><br><br>
-						<h3><?php $iLab1; ?></h3>
+						<h3><?php echo $ilab1; ?></h3>
+
 						<br>
 						<a class="btn btn-fill btn-primary btn-wd page-scroll btn-lg" href="#part" onmouseover="changeImage();" onmouseout="changeImage();"><?php echo $join; ?></a>
 					</div>
@@ -175,10 +176,10 @@ else {
 				<div class="separator-2"></div>
 				<p><?php echo $ilabp; ?></p>
 				</div>
-				<a class="btn btn-primary btn-outline" href="upload/iLabs_Call for Application_En.pdf" target="_blank" ><i class="fa fa-download"></i><?php echo $ilab4; ?></a><br><br>
-				<a href="about.php?ab=about"><?php echo $ilab5; ?></a>
-				<!-- Institut div -->
-
+				<a class="btn btn-primary btn-outline" href="upload/iLabs_Call for Application_En.pdf" target="_blank" ><i class="fa fa-download"></i> <?php echo $ilab4; ?></a><br><br>
+				<a href="about.php?ab=<?php echo $ab; ?>"><?php echo $ilab5; ?></a>
+				
+				<!-- institution behind -->
 				<div class="row">
 				<h3 ><?php echo $inst1; ?></h3>
 				<div class="separator-2"></div>
@@ -187,8 +188,8 @@ else {
 			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-info">
 					<div class="shape">
-						<div class="shape-text">
-							<a href="about.php?ab=technation"><?php echo $more; ?></a>								
+						<div class="shape-text" lang="<?php echo $language1; ?>">
+							<a href="about.php?ab=<?php echo $more1; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -204,8 +205,8 @@ else {
 			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-default">
 					<div class="shape">
-						<div class="shape-text">
-							<a href="about.php?ab=herat"><?php echo $more; ?></a>								
+						<div class="shape-text" lang="<?php echo $language1; ?>">
+							<a href="about.php?ab=<?php echo $more2; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -221,8 +222,8 @@ else {
 			<div class="col-md-4 col-sm-6 ">
 				<div class="offer offer-radius offer-women">
 					<div class="shape">
-						<div class="shape-text">
-							<a href="about.php?ab=women"><?php echo $more; ?></a>								
+						<div class="shape-text" lang="<?php echo $language1; ?>">
+							<a href="about.php?ab=<?php echo $more3; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -237,12 +238,12 @@ else {
 			</div>
         </div>		
         <div class="row">
-				<p>Supported by:</p>
-			<div class="col-md-4 col-sm-6">
+				<p><?php echo $suport; ?></p>
+			<div class="col-md-4 col-sm-6 col-md-offset-2">
 				<div class="offer offer-radius offer-primary">
 					<div class="shape">
-						<div class="shape-text">
-							<a href="about.php?ab=internews"><?php echo $more; ?></a>								
+						<div class="shape-text" lang="<?php echo $language1; ?>">
+							<a href="about.php?ab=<?php echo $more4; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -255,11 +256,11 @@ else {
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-6">
+		<!-- 	<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-warning">
 					<div class="shape">
 						<div class="shape-text">
-							<a href="about.php?ab=part"><?php echo $more; ?></a>								
+							<a href="about.php?ab=<?php echo $more5; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -272,12 +273,12 @@ else {
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-md-4 col-sm-6">
 				<div class="offer offer-radius offer-danger">
 					<div class="shape">
-						<div class="shape-text">
-							<a href="about.php?ab=usid"><?php echo $more; ?></a>								
+						<div class="shape-text" lang="<?php echo $language1; ?>">
+							<a href="about.php?ab=<?php echo $more6; ?>"><?php echo $more; ?></a>								
 						</div>
 					</div>
 					<div class="offer-content">
@@ -515,7 +516,7 @@ else {
                       </ul>
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#freshta">Freshtah Hemmati <br><br></a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#freshta"><?php echo $fereshta; ?><br><br></a></h3>
               </div>
             </div>
 <!-- /freshta -->
@@ -585,7 +586,7 @@ else {
                   <img src="img/abdulrahman.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#rahman">
                   	<br><br>
-                  	<p><?php echo $mentor14; ?></p>
+                  	<p><?php echo $rahman; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="http://af.linkedin.com/in/MassoudAsgharzada "><i class="fa fa-twitter"></i></a></li>
@@ -603,7 +604,7 @@ else {
                   <img src="img/nasratphoto.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#nasrat">
                   	<br><br>
-                  	<p><?php echo $mentor15; ?></p>
+                  	<p><?php echo $nasrat; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
@@ -621,7 +622,7 @@ else {
                   <img src="img/zia.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#zia">
                   	<br><br>
-                  	<p></p>
+                  	<p><?php echo $zia; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="https://twitter.com/Zia12mommand"><i class="fa fa-twitter"></i></a></li>
@@ -662,7 +663,7 @@ else {
                   <img src="img/jamshid.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#jamshid">
                   <br><br>
-                    <p> <?php echo $jamashid; ?></p>
+                    <p> <?php echo $jamshid1; ?></p>
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://twitter.com/jamshidhashimi"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="af.linkedin.com/in/jamshidhashimi"><i class="fa fa-twitter"></i></a></li>
@@ -848,6 +849,8 @@ else {
                 <div class="overlay-container">
                   <img src="img/ava.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#halim">
+                  	<br>
+                  	<p><?php echo $halima2; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
@@ -864,6 +867,8 @@ else {
                 <div class="overlay-container">
                   <img src="img/ava.png" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#kakar">
+                  	<br>
+                  	<p><?php echo $sanzar2; ?></p>
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
@@ -1006,132 +1011,23 @@ else {
 		<!-- schedule Section -->
 		<section id="schedule" class="schedule-section">
 			<div class="container">
-				<h2>Schedule</h2>
-				<div class="panel panel-primary" >
-                <div class="panel-heading" style="background-color:rgb(225,121,26);">
-                <h3 class="panel-title"> iLabs in Herat</h3>
-                </div>
-	                <div class="panel-body">
-	                    <div class="row">
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Saturday, February 14</h4>
-	                        	<h5>PRE-LAB IN HERAT</h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing pre-Lab in Herat<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Tuesday, February 17</h4>
-	                        	<h5>MAIN-LAB IN HERAT <small>DAY 1</small></h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing main-Lab Day 1 in Herat<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Wednesday, February 18</h4>
-	                        	<h5>MAIN-LAB IN HERAT<small> DAY 2</small></h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o "></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing main-Lab Day 2 in Herat<br> & Press Conference<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                    </div>
-	                    
-	                </div>
-            	</div>
-            	<div class="panel panel-primary" >
-                <div class="panel-heading" style="background-color:rgb(225,121,26);">
-                <h3 class="panel-title"> iLabs in Kabul</h3>
-                </div>
-	                <div class="panel-body">
-	                    <div class="row">
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Sunday, March 15</h4>
-	                        	<h5>PRE-LAB IN KABUL</h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing pre-Lab in Kabul<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Monday, March 23</h4>
-	                        	<h5>MAIN-LAB IN KABUL <small>DAY 1</small></h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing main-Lab Day 1 in Kabul<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                        <div class="col-sm-4">
-	                        	<div class="row">
-	                        	<h4>Tuesday, March 24</h4>
-	                        	<h5>MAIN-LAB IN KABUL<small> DAY 2</small></h5>
-	                        	<div class="separator-2"></div>
-	                        	</div>
-	                        	<div class="row text-left">
-	                        	<h6>Registration & Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	8:30am</small></h6>
-	                        	<h6>Morning Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o "></span>	9:30am - 12:30pm</small></h6>
-	                        	<h6>Lunch & Prayer<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	12:30pm - 13:30pm</small></h6>
-	                        	<h6>Afternoon Labs<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	13:30pm - 16:30pm</small></h6>
-	                        	<h6>Closing main-Lab Day 2 in Kabul<br> & Press Conference<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:30pm - 17:00pm</small></h6>
-	                        	</div>
-	                        </div>
-	                    </div>
-	                    
-	                </div>
-            	</div>
-            	<div class="row">
-            	<div class="col-sm-8 col-sm-offset-2">
-            	<div class="panel panel-primary" >
-                <div class="panel-heading" style="background-color:rgb(225,121,26);">
-                <h3 class="panel-title"> CLOSING, AWARDS AND SOCIAL</h3>
-                </div>
-	                <div class="panel-body">
-	                        	<h4>Thursday, March 26</h4>
-	                        	<div class="separator-2"></div>
-	                        	<div class="row text-left">
-	                        	<h6>Arrival, Registration, Networking<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	14:00pm - 14:30pm</small></h6>
-	                        	<h6>iLabs 2015 Report<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	14:30 - 14:45</small></h6>
-	                        	<h6>Speeches by leaders from government, industry, civil society<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	14:45 - 15:45</small></h6>
-	                        	<h6>Awards & Certifications<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	15:45 - 16:45</small></h6>
-	                        	<h6>Press Conference<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:45</small></h6>
-	                        	<h6>Networking & Social<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-clock-o"></span>	16:45-18:45</small></h6>
-	                        	</div>
-	                    </div>
-	                </div>
-            	</div>
-            	</div>
+				<?php
+					if(isset($_GET['lang'])) {
+		if($_GET['lang'] == 'da') {
+			include('includes/Linclude/daschedule.php');
+		} 
+		elseif ($_GET['lang'] == 'ps') {
+			include('includes/Linclude/psschedule.php');
+		}
+		else {
+			include('includes/Linclude/enschedule.php');
+		}
+	}
+else {
+	        include('includes/Linclude/enschedule.php');
+
+}
+ ?>
             	</div>
 		</section>
 
@@ -1142,46 +1038,34 @@ else {
 	<!-- prelabs Section -->
 		<section id="labs" class="labs-section">
 			<div id="ioe" class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="box">
-							<div class="box-icon">
-								<span class="fa fa-4x fa-calendar"></span>
-							</div>
-							<div class="info">
-								<div class="row">
-								<h1 class="text-center"><?php echo $event1; ?></h1>
-									 <p class="text-center" ><?php echo $event2; ?></p>
-								</div>
-								<div class="row text-center">
-									<div class="col-md-4"><h5><b><?php echo $event3; ?></b></h5><div class="separator-2"></div>
-									<p class="text-left"><?php echo $event4; ?></p>
-									<a href="about.php?ab=pre"><?php echo $more; ?></a>
-									</div>
-									<div class="col-md-4"><h5><b><?php echo $event5; ?></b></h5><div class="separator-2"></div>
-									<p class="text-left"><?php echo $event6; ?></p>
-									<a href="about.php?ab=lab"><?php echo $more; ?></a>
-									</div>
-									<div class="col-md-4"><h5><b><?php echo $event7; ?></b></h5><div class="separator-2"></div>
-									<p class="text-left"><?php echo $event8; ?></p>
-									<a href="about.php?ab=close"><?php echo $more; ?></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+						<?php
+					if(isset($_GET['lang'])) {
+		if($_GET['lang'] == 'da') {
+			include('includes/Linclude/daevent.php');
+		} 
+		elseif ($_GET['lang'] == 'ps') {
+			include('includes/Linclude/psevent.php');
+		}
+		else {
+			include('includes/Linclude/enevent.php');
+		}
+	}
+else {
+	        include('includes/Linclude/enevent.php');
+
+}
+ ?>
 			</div>
 		</section>
 
-
+<!-- Project Section -->
 		<section id="project" class="project-section">
 			<div class="container">
 				<div class="row">
 					
 						<h1><?php echo $project1; ?></h1>
 						<div class="separator-2"></div>
-					<p><?php echo $project2; ?><a href="http://kabulinnovationlab.com/lab-2012/">2012</a> and <a href="http://kabulinnovationlab.com/projects-2013/">2013</a></p>
+					<p><?php echo $project2; ?><a href="http://kabulinnovationlab.com/lab-2012/">2012</a> او <a href="http://kabulinnovationlab.com/projects-2013/">2013</a></p>
 				</div>
 				<br><br>
 				<div class="row">
@@ -1330,21 +1214,21 @@ else {
 				<p><?php echo $Participate2; ?></p>
 			</div>
 			<div class="row">
-			<div class="col-md-offset-1">
+			<div class="col-md-offset-2">
     <ul class="ds-btn">
      <li>
-             <a class="btn btn-lg btn-info" href="about.php?ab=why">
-          <i class="fa fa-question-circle fa-3x pull-left"></i><span><?php echo $Participate3; ?><br><small><?php echo $Participate4; ?></small></span></a> 
+             <a class="btn btn-lg btn-info" href="about.php?ab=<?php echo $more10; ?>">
+          <i class="fa fa-question-circle fa-3x <?php echo $fclas; ?>"></i><?php echo $Participate3; ?><br><small><?php echo $Participate4; ?></small></a> 
             
         </li>
         <li>
-             <a class="btn btn-lg btn-primary" href="about.php?ab=select">
-          <i class="fa fa-users fa-3x pull-left"></i><span><?php echo $Participate5; ?><br><small><?php echo $Participate6; ?></small></span></a> 
+             <a class="btn btn-lg btn-primary" href="about.php?ab=<?php echo $more11; ?>">
+          <i class="fa fa-users fa-3x <?php echo $fclas; ?>"></i><?php echo $Participate5; ?><br><small><?php echo $Participate6; ?></small></a> 
             
         </li>
         <li>
-             <a class="btn btn-lg btn-warning " href="about.php?ab=expect">
-         <i class="fa fa-line-chart fa-3x pull-left"></i><span><?php echo $Participate7; ?><br><small><?php echo $Participate8; ?></small></span></a> 
+             <a class="btn btn-lg btn-warning " href="about.php?ab=<?php echo $more12; ?>">
+         <i class="fa fa-line-chart fa-3x <?php echo $fclas; ?>"></i><?php echo $Participate7; ?><br><small><?php echo $Participate8; ?></small></a> 
             
         </li>
     </ul>
@@ -1354,181 +1238,24 @@ else {
 
 					<div class="row">
 						<div class="col-sm-8 col-sm-offset-2">
+<!-- Wizar container -->
+												<?php
+					if(isset($_GET['lang'])) {
+		if($_GET['lang'] == 'da') {
+			include('includes/Linclude/dawizard.php');
+		} 
+		elseif ($_GET['lang'] == 'ps') {
+			include('includes/Linclude/pswizard.php');
+		}
+		else {
+			include('includes/Linclude/enwizard.php');
+		}
+	}
+else {
+	        include('includes/Linclude/enwizard.php');
 
-							<!--      Wizard container        -->
-							<div class="wizard-container" id="re-wizard">
-
-								<?php
-								if(isset($_SESSION['success']))
-								{
-								?>
-
-								<div id="one" >
-
-									<?php echo $_SESSION['success']; ?>
-								</div>
-								<?php
-								}
-								unset($_SESSION['success']);
-								?>
-
-								<div class="card wizard-card ct-wizard-green" id="wizard">
-
-									<!--        You can switch "ct-wizard-azzure"  with one of the next bright colors: "ct-wizard-blue", "ct-wizard-green", "ct-wizard-orange", "ct-wizard-red"             -->
-
-									<div class="wizard-header">
-										<h3><?php echo $Participate9; ?></h3>
-									</div>
-									<ul>
-										<li>
-											<a href="#personal" data-toggle="tab"><?php echo $Participate10; ?></a>
-										</li>
-										<li>
-											<a href="#occupation" data-toggle="tab"><?php echo $occupation; ?></a>
-										</li>
-									</ul>
-									<form name="myform" action="#" method="get" onsubmit="return chek();">
-										<div class="tab-content">
-											<div class="tab-pane" id="personal">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group left-inner-addon required-field-block">
-																<span class="fa fa-user"></span>
-																<span class="pull-left text-left" id="error1" style="color:red"></span>
-															<input type="text" class="form-control fa fa-user" name="firstname"  id="fname" placeholder="<?php echo $Participate11; ?>" value="<?php if(isset($_SESSION['fname'])){echo $_SESSION['fname'];} ?>" >
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-																	<span class="fa fa-user"></span>
-											</div>
-
-														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-user"></span>
-															<span class="pull-left text-left" id="error2" style="color:red"></span>
-															<input type="text" class="form-control fa fa-user" name="lastname" id="lname" placeholder="<?php echo $Participate12; ?>" value="<?php if(isset($_SESSION['lname'])){echo $_SESSION['lname'];} ?>">
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-														</div>
-
-														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-mobile-phone"></span>
-															<span class="pull-left" id="error3" style="color:red"></span>
-															<input type="tel" class="form-control fa fa-phone" name="phonnumber" id="tel" placeholder="<?php echo $phonno; ?>" value="<?php if(isset($_SESSION['pnum'])){echo $_SESSION['pnum'];} ?>">
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-														</div>
-													</div>
-
-													<div class="col-md-6">
-
-														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-envelope"></span>
-															<span class="pull-left" id="error4" style="color:red"></span>
-															<input type="email" class="form-control fa fa-envelope" name="email" id="email" placeholder="<?php echo $Participate13; ?>" value="<?php if(isset($_SESSION['em'])){echo $_SESSION['em'];} ?>"/>
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-															<?php
-																if(isset($_SESSION['suc']))
-																		{
-															?>
-
-															<div id="onono" class='text-danger pull-left' >
-
-																<?php echo $_SESSION['suc']; ?>
-															</div>
-															<?php }
-															unset($_SESSION['suc']);
-															?>
-														</div>
-														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-tasks"></span>
-															<span class="pull-left" id="error5" style="color:red"></span>
-															<input type="text" class="form-control fa fa-tasks" name="occopation" id="job" placeholder="<?php echo $Participate14; ?>" value="<?php if(isset($_SESSION['occ'])){echo $_SESSION['occ'];} ?>">
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-														</div>
-														<div class="form-group left-inner-addon required-field-block">
-															<span class="fa fa-globe"></span>
-															<span class="pull-left" id="error6" style="color:red"></span>
-															<input type="text" class="form-control fa fa-globe" name="company" id="company" placeholder="<?php echo $Participate15; ?>" value="<?php if(isset($_SESSION['comp'])){echo $_SESSION['comp'];} ?>">
-															<div class="required-icon">
-												                <div class="text">*</div>
-												            </div>
-														</div>
-													</div>
-													<div class="row">
-													<div class="separator-2"></div>
-														<label><?php echo $Participate16; ?></label>
-														<input type="checkbox" name="lan1" value="<?php echo $Participate17; ?>" id="lan1">
-														Pashto&nbsp;&nbsp;
-														<input type="checkbox" name="lan2" value="<?php echo $ps; ?>" id="lan2">
-														Dari&nbsp;&nbsp;
-														<input type="checkbox" name="lan3" value="<?php echo $Participate18; ?>" id="lan3">
-														English&nbsp;&nbsp;
-														<div class="form-group col-md-10 col-md-offset-1">
-															<input type="text" class="form-control" name="lan4" id="other" placeholder="<?php echo $Participate19; ?>">
-															<span class="" id="error7" style="color:red"></span>
-														</div>
-
-														</div>
-												</div>
-												<div class="row">
-
-													<?php
-if(isset($_SESSION['su']))
-{
-													?>
-													<div class= 'text- alert-dismissible text-danger text-center'>
-														<?php echo $_SESSION['su']; ?>
-													</div>
-													<?php
-													}
-													unset($_SESSION['su']);
-													?>
-												</div>
-											</div>
-											<div class="tab-pane" id="occupation">
-												<div class="row">
-													<div class="col-md-12">
-														<div class="form-group pull-left">
-															<label><?php echo $wherp; ?></label> &nbsp;&nbsp;&nbsp;
-															<input type="radio" name="place" value="kabul" checked="">- Kabul &nbsp; <input type="radio" name="place" value="herat">- Herat
-														</div>
-														<div class="form-group">
-															<textarea class="form-control" rows="2" name="pre-lab1" placeholder="<?php echo $Participate20; ?>"><?php if(isset($_SESSION['pre'])){echo $_SESSION['pre'];} ?></textarea>
-														</div>
-														<div class="form-group">
-															<textarea class="form-control" rows="2" name="intrest" placeholder="<?php echo $Participate21; ?>"><?php if(isset($_SESSION['in'])){echo $_SESSION['in'];} ?></textarea>
-														</div>
-														<div class="form-group">
-															<textarea class="form-control" rows="2" name="social" placeholder="<?php echo $Participate22; ?>"><?php if(isset($_SESSION['social'])){echo $_SESSION['social'];} ?></textarea>
-														</div>
-														<div class="form-group">
-															<textarea class="form-control" rows="2" name="problem" placeholder="<?php echo $Participate23; ?>"><?php if(isset($_SESSION['prob'])){echo $_SESSION['prob'];} ?></textarea>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wizard-footer">
-											<div class="pull-right">
-												<input type='button' class='btn btn-next btn-primary btn-outline btn-sm' name='next' value='<?php echo $Participate27; ?>' />
-
-												<input type='submit' class='btn btn-finish btn-primary btn-outline btn-sm' name='Submit' value='<?php echo $Participate25; ?>' />
-											</div>
-											<div class="pull-left">
-												<input type='button' class='previous btn btn-previous btn-default btn-outline btn-sm' name='previous' value='<?php echo $Participate26; ?>' />
-											</div>
-											<div class="clearfix"></div>
-										</div>
-									</form>
-
-								</div>
-							</div>
+}
+ ?>
 							<!-- wizard container -->
 						</div>
 					</div>
@@ -1618,12 +1345,12 @@ if(isset($_SESSION['su']))
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
-								<textarea class="form-control" id="c-message" placeholder="Your Message" name="message"></textarea>
+								<textarea class="form-control" id="c-message" placeholder="<?php echo $msg; ?>" name="message"></textarea>
 							</div>
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
-								<input type="button" onclick="conta('c-name','c-email','c-message','submit');"  value="Contact Us" name="submit" class="btn btn-primary btn-outline pull-right"/>
+								<input type="button" onclick="conta('c-name','c-email','c-message','submit');"  value="<?php echo $cont; ?>" name="submit" class="btn btn-primary btn-outline pull-right"/>
 							</div>
 
 
@@ -1637,11 +1364,11 @@ if(isset($_SESSION['su']))
 					</div>
 					<div class="col-sm-3 col-md-5">
 						<address>
-							<div class="col-md-6 pull-left text-left">
+							<div class="col-md-6 <?php echo $fclas; ?> <?php echo $txtclass1; ?>">
 								<p class="mbottom text-justify">
 								<?php echo $contact2; ?>
 								</p>
-								<span class="strong"><b><i class="fa fa-home"></i> TechNation Offices</b></span>
+								<span class="strong"><b><i class="fa fa-home"></i><?php echo $tech; ?></b></span>
 								<br >
 								<?php echo $contact3; ?>
 								<br/>
@@ -1650,7 +1377,7 @@ if(isset($_SESSION['su']))
 								<?php echo $contact5; ?>
 								<br >
 							</div>
-							<div class="col-md-6 pull-left text-left">
+							<div class="col-md-6 pull-left text-right">
 								<p class="mbottom">
 									<i class="fa fa-phone"></i> +93 788 161 862
 								</p>

@@ -9,4 +9,6 @@ $sub2='';
 $cont3='';
 $cont4='';
 $cont5='';
-?>
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";?>

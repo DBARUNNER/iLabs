@@ -9,4 +9,6 @@ $cont3='';
 $cont4='';
 $cont5='';
 $link='https://www.internews.org/';
-?>
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";?>

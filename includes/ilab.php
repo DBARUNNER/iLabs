@@ -12,4 +12,6 @@ $cont2='Participants are divided into small working groups, each led by a mentor
 $cont3='Participants would need to find answers to issues such as: identification of  a social or environmental problem that they need to solve, and building tech  solutions to the problem, furthermore, enabling them to sustain their ideas by developing apps and creating a user-base for their solution. Download meeting<a href=""> agenda</a>';
 $cont4='';
 $cont5='';
-?>
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";?>

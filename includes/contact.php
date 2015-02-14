@@ -13,4 +13,7 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 }else{
 	echo "Fill the Blank Field";	
 }
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";
 ?>

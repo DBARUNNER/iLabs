@@ -6,4 +6,8 @@ $sub2='';
 $cont2='Ceremony speakers will include representatives from the Ministries of Economy, Information and Culture, Communications and Information Technology, Higher Education, Education, National Environmental Protection Agency (NEPA), the Independent Election Commission, Waslesi Jirga and Mashrano Jirga (the lower and upper houses of parliament), civil society organizations, and representatives from the international community in Kabul, and the mass media. Download meeting <a href=""> agenda</a>. ';
 $cont3='';
 $cont4='';
-$cont5='';?>
+$cont5='';
+$lang="english";
+$direction="ltr";
+$txtclass="text-left";
+?>

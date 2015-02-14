@@ -17,7 +17,7 @@
 					<ul class="nav navbar-nav navbar-left">
 						<li>
 							<a style="line-height:0px;font-size:12px;display:inline;top:4px;" class="page-scroll"><i class="fa"></i>	با ما به تماس شوید!	 &nbsp;<i class="fa fa-phone fa-rotate-270"></i>&nbsp;  862 162  788 93+&nbsp;	</i>&nbsp;<i class="fa fa-envelope"></i>		ilabs@technation.af</a>
-							<a style="line-height:0px;font-size:12px; display:inline;top:4px;" href="index.php?lang=<?php echo $lk1; ?>"><?php echo $lang1; ?></a><a style="line-height:0px; display:inline;top:4px;">|</a><a style="line-height:0px;font-size:12px;display:inline;top:4px;"  href="index.php?lang=<?php echo $lk2; ?>"><?php echo $lang2; ?></a>
+							<a style="line-height:0px;font-size:12px; display:inline;top:4px;" href="index.php?lang=<?php echo $lk1; ?>"><?php echo $lang1; ?></a>|</a><a style="line-height:0px;font-size:12px;display:inline;top:4px;"  href="index.php?lang=<?php echo $lk2; ?>"><?php echo $lang2; ?></a>
 					</ul>
 				</div>
 			</div>

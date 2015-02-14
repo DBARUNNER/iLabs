@@ -56,6 +56,9 @@
 							<a class="page-scroll" href="#speakers" style="height:52px;">Speakers </a>
 						</li>
 						<li>
+							<a class="page-scroll" href="#schedule" style="height:52px;">Schedule</a>
+						</li>
+						<li>
 							<a class="page-scroll" href="#labs" style="height:52px;">Events </a>
 						</li>
 						<li>

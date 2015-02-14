@@ -20,9 +20,154 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 }
 }else{
 ?>
+	
+		<?php
+		$ab=$_GET['ab'];
+		// technation condition
+		if($ab=='technation'){
+			include 'includes/technation.php';
+		}
+		elseif($ab=="pstechnation"){
+				include 'includes/psinclude/pstechnation.php';
+			}
+			else if($ab=="datechnation") {
+				include 'includes/dainclude/datechnation.php';
+			}
+			// Herat condition
+		else if($ab=='herat'){
+			include 'includes/herat.php';
+		}
+			else if($ab=="psherat"){
+				include 'includes/psinclude/psherat.php';
+			}
+			else if($ab=="daherat") {
+				include 'includes/dainclude/daherat.php';
+			}
+			// women condition
+		else if($ab=='women'){
+			include 'includes/women.php';
+		}
+		else if($ab=="pswomen"){
+				include 'includes/psinclude/pswomen.php';
+			}
+			else if($ab=="dawomen") {
+				include 'includes/dainclude/dawomen.php';
+			}
+			// internews condition
+		else if($ab=='internews'){
+			include 'includes/internews.php';
+		}
+		else if($ab=="psinternews"){
+				include 'includes/psinclude/psinternews.php';
+			}
+			else if($ab=="dainternews") {
+				include 'includes/dainclude/dainternews.php';
+			}
+			// part conditon
+		else if($ab=='part'){
+			include 'includes/part.php';
+		}
+		else if($ab=="pspart"){
+				include 'includes/psinclude/pspart.php';
+			}
+			else if($ab=="dapart") {
+				include 'includes/dainclude/dapart.php';
+			}
+			// about condition
+		else if($ab=='about'){
+			include 'includes/abo.php';
+		}
+		else if($ab=="psabout"){
+				include 'includes/psinclude/psabo.php';
+			}
+			else if($ab=="daabout") {
+				include 'includes/dainclude/daabo.php';
+			}
+			// usid condition
+		else if($ab=='usid'){
+			include 'includes/usid.php';
+		}
+		else if($ab=="psusid"){
+				include 'includes/psinclude/psusid.php';
+			}
+			else if($ab=="dausid") {
+				include 'includes/dainclude/dausid.php';
+			}
+			// pre condition
+		else if($ab=='pre'){
+			include 'includes/prelab.php';
+		}
+		else if($ab=="pspre"){
+				include 'includes/psinclude/psprelab.php';
+			}
+			else if($ab=="dapre") {
+				include 'includes/dainclude/daprelab.php';
+			}
+			// lab condition
+		else if($ab=='lab'){
+			include 'includes/ilab.php';
+		}
+		else if($ab=="pslab"){
+				include 'includes/psinclude/psilab.php';
+			}
+			else if($ab=="dalab") {
+				include 'includes/dainclude/dailab.php';
+			}
+			// close condition
+		else if($ab=='close'){
+			include 'includes/close.php';
+		}
+		else if($ab=="psclose"){
+				include 'includes/psinclude/psclose.php';
+			}
+			else if($ab=="daclose") {
+				include 'includes/dainclude/daclose.php';
+			}
+			// why condition
+		else if($ab=='why'){
+			include 'includes/why.php';
+		}
+		else if($ab=="pswhy"){
+				include 'includes/psinclude/pswhy.php';
+			}
+			else if($ab=="dawhy") {
+				include 'includes/dainclude/dawhy.php';
+			}
+			// select condition
+		else if($ab=='select'){
+			include 'includes/select.php';
+		}
+		else if($ab=="psselect"){
+				include 'includes/psinclude/psselect.php';
+			}
+			else if($ab=="daherat") {
+				include 'includes/dainclude/daselect.php';
+			}
+			// expect condition
+		else if($ab=='expect'){
+			include 'includes/expect.php';
+		}
+		else if($ab=="psexpect"){
+				include 'includes/psinclude/psexpect.php';
+			}
+			else if($ab=="daexpect") {
+				include 'includes/dainclude/daexpect.php';
+			}
+			// err conditon
+		else if($ab=='err'){
+			include 'includes/err.php';
+		}
+		else if($ab=="pserr"){
+				include 'includes/psinclude/pserr.php';
+			}
+			else if($ab=="daerr") {
+				include 'includes/dainclude/daerr.php';
+			}
+		?>
+		<!--  -->
 <!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 	<head>
 <!-- THIS WEBSITE HAS BEEN DESIGN AND DEVELOPED BY ABDULLAH RAHIMEE AND ALL RIGHTS IS RESERVED TO HIM -->
@@ -98,155 +243,43 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 					alert("Please fill out this field!!!");
 				}
 			}
+			function goBack() {
+				window.history.back();
+			}
 		</script>
 	</head>
 	
 
-	<body data-spy="scroll">
-		<div class="container" id="con" style="background-color:#eee;">
-			<div class="row" style="margin:0;">
-				<div class="col-md-12" >
-					<ul class="nav navbar-nav navbar-left">
-						<li>
-							<a href="#venue" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bank"></i> Venue </a>
-						</li>
-						<li>
-							<a href="#past" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-calendar-o"></i> Past iLabs</a>
-						</li>
-						<li>
-							<a href="#past" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-bookmark"></i> Resources</a>
-						</li>
-						<li>
-							<a href="#" style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa fa-lock"></i> Privacy Policy</a>
-						</li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a style="line-height:0px;font-size:12px" class="page-scroll"><i class="fa"></i>		Connect with us! &nbsp;<i class="fa fa-phone"></i>&nbsp;		+93 788 816 1862‏ &nbsp;	</i>&nbsp;<i class="fa fa-envelope"></i>		ilabs@technation.af</a>
-						</li>	
-					</ul>
-				</div>
-			</div>
+	<body data-spy="scroll"  lang="<?php echo $lang; ?>" dir="<?php echo $direction; ?>">
+		<div class="container-fluid" id="con" style="background-color:#eee;">
+					 	<?php 
+					 	if($lang=='english') {
+					 		include ('includes/Linclude/abennave.php');
+					 	}else if($lang=='pashto') {
+					 		include ('includes/Linclude/abpsnave.php');
+					 	}else if($lang=='dari') {
+					 		include ('includes/Linclude/abdanave.php');
+					 	}
+						?> 
+						
 		</div>
-		<!-- Navigation -->
-		<nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="10" id="nav">
-			<div class="container">
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav" >
-						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-						<li class="hidden">
-							<a class="page-scroll" href="#page-top"></a>
-						</li>
-						<li class="page-scroll">
-							<a class="page-scroll active"  href="#intro" style="background-image:url('img/ilab.png'); background-size:100%; width:70px;height:52px; background-repeat:no-repeat;"> </a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#ilab" style="height:52px;">iLabs</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#teams" style="height:52px;">Team</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#speakers" style="height:52px;">Speakers </a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#labs" style="height:52px;">Events </a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#project" style="height:52px;">Projects</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#media" style="height:52px;">Media</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#part" style="height:52px;">Participate</a>
-						</li>
-					</ul>
-					<ul class="pull-right nav navbar-nav">
-          
-			          <li style="background-color:#3B5998;"><a  href="https://www.facebook.com/iLabs.af" target="_blank"><i id="social" class="fa fa-facebook-square fa-2x"></i></a></li>
-			          <li style="background-color:#4099FF;"><a href="https://twitter.com/KabulLab" target="_blank"><i id="social" class="fa fa-twitter-square fa-2x "></i></a></li>
-			          <li style="background-color:#d34836;"><a href="https://plus.google.com/u/0/b/117599669345564413256/117599669345564413256/about" target="_blank"><i id="social" class="fa fa-google-plus-square fa-2x"></i></a></li>
-			          <li style="background-color:#0077b5;"><a href="https://www.linkedin.com/company/ilabs-afghanistan?report%2Esuccess=MlmG7g_fqFRfD4iVhHgr0FomJDOL3vciIT4v8pi3EYkZnZLjFuJfr4acCeXZnFnMvaat" target="_blank"><i id="social" class="fa fa-linkedin-square fa-2x"></i></a></li>
-			          
-			        </ul>
-				</div>
-
-				<!-- /.navbar-collapse -->
-			</div>
-			<!-- /.container -->
-
-		</nav>
-		<?php
-		$ab=$_GET['ab'];
-		if($ab=='technation'){
-			include 'includes/technation.php';
-		}
-		else if($ab=='herat'){
-			include 'includes/herat.php';
-		}
-		else if($ab=='women'){
-			include 'includes/women.php';
-		}
-		else if($ab=='internews'){
-			include 'includes/internews.php';
-		}
-		else if($ab=='part'){
-			include 'includes/part.php';
-		}
-		else if($ab=='about'){
-			include 'includes/abo.php';
-		}else if($ab=='usid'){
-			include 'includes/usid.php';
-		}else if($ab=='pre'){
-			include 'includes/prelab.php';
-		}
-		else if($ab=='lab'){
-			include 'includes/ilab.php';
-		}
-		else if($ab=='close'){
-			include 'includes/close.php';
-		}else if($ab=='why'){
-			include 'includes/why.php';
-		}else if($ab=='select'){
-			include 'includes/select.php';
-		}else if($ab=='expect'){
-			include 'includes/expect.php';
-		}else if($ab=='err'){
-			include 'includes/err.php';
-		}
-		?>
-			<!-- about Section -->
+		<!-- about Section -->
 		<section id="ilab" class="ilab-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12" style="text-align:center;" dir="<?php echo $direction;?>">
 					<img src="<?php echo $photo; ?>">
-					<h1><?php echo $head; ?></h1>
+					<h1 class="text-center"><?php echo $head; ?></h1>
 					<div class="separator-2"></div>
-					<h3 class="<?php
-					if($ab=='err'){
-					}else{
-						echo "text-left";
-					}
-					?>"><?php echo $sub1; ?></h3>
-					<p class="text-left"><?php echo $cont1; ?></p>
-					<h3 class="text-left"><?php echo $sub2; ?></h3>
-					<p class="text-left"><?php echo $cont2; ?></p>
-					<p class="text-left"><?php echo $cont3; ?></p>
-					<p class="text-left"><?php echo $cont4; ?></p>
-					<p class="text-left"><?php echo $cont5; ?></p>
+
+					<h3 class="<?php echo $txtclass; ?>"><?php echo $sub1; ?></h3>
+					<p class="<?php echo $txtclass; ?>"><?php echo $cont1; ?></p>
+					<h3 class="<?php echo $txtclass; ?>"><?php echo $sub2; ?></h3>
+					<p class="<?php echo $txtclass; ?>"><?php echo $cont2; ?></p>
+					<p class="<?php echo $txtclass; ?>"><?php echo $cont3; ?></p>
+					<!-- <h3 class="<?php echo $txtclass; ?>"><?php echo $sub3; ?></h3> -->
+					<p class="<?php echo $txtclass; ?>"><?php echo $cont4; ?></p>
+					<p class="<?php echo $txtclass; ?>"><?php echo $cont5; ?></p>
 					<?php
 					if($ab=='about' || $ab=='pre' || $ab=='lab' || $ab=='close' || $ab=='why' || $ab=='select' || $ab=='expect' || $ab=='err'){
 						
@@ -254,6 +287,7 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 						echo '<a href="'.$link.'" target="_blank">Read More</a>';
 					}
 					?>
+
 					</div>
 				</div>
 				<div class="row">
@@ -263,7 +297,7 @@ if(mysql_query("INSERT INTO contact VALUES (null,'".$name."','".$email."','".$me
 						echo "pull-right";
 					}
 					?>">
-					<a href="index.php" class="btn btn-danger btn-sm"><i class="fa fa-home"></i>  Back to Home Page</a>
+					<a href="#" onclick="goBack();" class="btn btn-danger btn-sm"><i class="fa fa-home"></i>  Back to Home Page</a>
 					</div>
 				</div>
 			</div>

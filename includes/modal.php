@@ -542,14 +542,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Noorin Khuja Eshaan</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $norin1; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Noorin has obtained her Bachelors from Computer Science Faculty of Kabul University in Afghanistan and has obtained her Masters In Internet Systems and E-Business from faculty of Computing Sciences of Durham University in England. She works at Internews as Innovation Program Coordinator.
+              <?php echo $norin2; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -566,7 +566,7 @@
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i><?php echo $back; ?></button>
         
       </div>
       
@@ -586,7 +586,7 @@
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
               ?????????????????????????????????????????????????????????????????
             </p>
@@ -605,7 +605,7 @@
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i><?php echo $back; ?></button>
         
       </div>
       
@@ -620,14 +620,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Omar Mansoor Ansari</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal1; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Omar is Afghanistan’s senior ICT executive and an award-winning technology entrepreneur. Since 1999, he has had an active part in shaping the local IT industry. He founded and worked with number of associations, networks, and built and supported startups that are taking active role in socioeconomic development on local, regional and international levels. Omar is Director of Founder Institute Kabul, and full time President of TechNation. 
+              <?php echo $modal2; ?>   
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -659,15 +659,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Baseer Ahmad Baheer</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal3; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Baseer is Afghanistan’s top-notched web engineer with years of experience in teaching, developing technologies and creating tools and applications for desktop, web and mobile. He consults for the World Bank and teaches web systems and technologies at Kabul University.
-            </p>
+          <?php echo $modal4; ?>  
+          </p>
           </div>
           <div class="col-md-4 col-sm-4">
             <img src="img/baseerphoto.jpg" />
@@ -699,14 +699,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Shabana Mansoory</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal5; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Shabana Mansoory is Bachelor of Computer science, graduated from Computer science faculty of Kabul University in 2012. She started her professional career as Database development intern in an international NGO, Chemonics international in Kabul by 2012. She has also been considered as revolutionary in women leadership in her activities in world’s largest student run organization “AIESEC Afghanistan” from being an exchange participant to becoming the first female executive board member in 2013- 2014. 
+          <?php echo $modal6; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -742,14 +742,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Massoud Asgharzada</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal7; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Massoud is Chief Executive Officer of Herat Host. He has over 6 years experiences in programming, web applications development, website designing and network implementations. Massoud works and teaches, he is technical adviser and computer lecturer in higher education institutes and NGOs in Herat. 
+            <?php echo $modal8; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -781,14 +781,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Elham Kohistani</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal9; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Partnerships Officer
+             <?php echo $modal10; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -824,14 +824,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Akmal Arzhang</b></h2>
+        <h2 class="modal-title<?php echo $txtcenterclass; ?> " id="myModalLabel"><b><?php echo $modal11; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              In 2013, Akmal founded ToNext, a software development company, which is one of the best management system development company in Afghanistan. Previously, he was a part of a software development team called Red Developers. Akmal has also been involved in educational programs, and he is the new innovations manager at CodeWeekend.
+            <?php echo $modal12; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -869,15 +869,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Ziaullah Momand</b></h2>
+        <h2 class="modal-title" id="myModalLabel"><b><?php echo $modal13; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Ziaullah Momand is instructor in kabul university, computer science faculty, Has 3years experiences in programming, web application development, mobile application development. Ziuallah Momand works in TechNation as web engineer.
-            </p>
+              <?php echo $modal14; ?> 
+           </p>
           </div>
           <div class="col-md-4 col-sm-4">
             <img src="img/zia.jpg" />
@@ -912,14 +912,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Abdul Rahman Sherzad</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal15; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Abdul Rahman, has years experiences teaching Information Database Management System, Application and Web programming in Herat University and other related Higher Education Institutes. He also works as Technical Adviser of Herat Host with years’ experiences in database development.
+            <?php echo $modal16; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -951,14 +951,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Mahmood Asgharzada</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal17; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Mahmood is software engineer at Herat Host. He has years of experience in apps development. He has taught in Herat University for years and has be building software applications for desktop and mobile.
+            <?php echo $modal18; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -990,14 +990,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Nasrat Khalid</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal19; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Nasrat Khalid is an innovation activist currently working with one of the leading development donors previously engaged with private and public sector. Nasrat's work focuses on the economic and social impacts of new technologies and development of ideas on how technology could be used in fragile and developing states such as Afghanistan. He has also mentored and trained hundreds of Afghans in different subject matters. 
+              <?php echo $modal20; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1029,14 +1029,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Yaser Akrami</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal21; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Yaser has years experiences in programming, web applications development and website designing. He works as database developer and project manager of Herat Host and teaches database and web application in higher education institutes. 
+              <?php echo $modal22; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1068,14 +1068,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Majeedullah Qarar</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal23; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-             this place have to be filled emidiatly!!
+              <?php echo $modal24; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1111,14 +1111,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Ogai Ahmadi</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal25; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-            waiting for ms Ogai ahmadi's bio.
+            <?php echo $modal26; ?>
             </p>
           </div>
           <div class="col-md-4  col-sm-4">
@@ -1154,14 +1154,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Sakhi Shokoh</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal27; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              contant will be provided as soon as possible
+              <?php echo $modal28; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1197,16 +1197,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Asmat Ullah</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal29; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              <p>an experienced, visionary and goal oriented senior executive with more than 14 years of demonstrated working experience with USAID, UNICEF, United Nations Department of Peace Keeping Operations (UNDPKO), Armed Forces (US Army, NATO, ISAF, Afghan Government and Private Sector as well as development multiple-donor funded programs / projects in Afghanistan as well as in the region.</p>
-              <p>I have extensive experience in Information Technology ,administration, operations, managing development multiple donor funded projects (Small – Large) scale with excellent hands on Information Technology, programs & projects management, operations management , business development, workforce development, communications management, monitoring & Control, project reporting to meet but exceed  stakeholders expectations, remote management developing and implementing multiple platform development projects / programs.</p>
-              <p>I am multilingual and fluent in Pashto, Dari/Persian English, Urdu and understanding level of Arabic,</p>
+              <?php echo $modal30; ?>
             </p>
           </div>
           <div class="col-md-4  col-sm-4">
@@ -1242,14 +1240,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Muhammad Aimal Marjan</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal31; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              this part will be fill soon.
+             <?php echo $modal32; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1287,14 +1285,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Mrs. Nooria Rezazada Rahim</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal33; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              A Fulbright Scholar with a Masters Degree in Information Technology majoring in Human Computer Interaction from the renowned Rochester Institute of Technology in New York, USA, Mrs. Rahim brings with her years of experience in the Afghan IT sector. Her work with Mobile Government through Paywast, Tedx Fulbright, USAID IT initiatives, European Commission Programs and more has given her great insight into the challenges and demands of this sector and she hopes to encourage growth and development of IT in Afghanistan particularly focusing on increasing female participation in technology initiatives.
+            <?php echo $modal34; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1331,17 +1329,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Khawaja Hamed Seddiqi</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal35; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-               Khawaja Hamed Seddiqi is Events manager  and Software developer at Technation Afghanistan.
-He has  bachelor degree in computer science  Software Engineering  from Kabul university. He has one year experience in web and mobile application development.
-He has developed web and mobile applications for Technation Afghanistan.
-
+              <?php echo $modal36; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1374,14 +1369,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Freshtah Hemmati</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal37; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-                Press Officer
+                <?php echo $modal38; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1418,14 +1413,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Nooria Ahmadi</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal39; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-                 Developer Technation
+                <?php echo $modal40; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1461,15 +1456,15 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Bronwyn Jones
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal41; ?>
 </b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-                  Civil Society and Media Manager at Internews
+                 <?php echo $modal42; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1507,14 +1502,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Sharmini Boyle</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal43; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Country Director
+              <?php echo $modal44; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1546,14 +1541,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Abdullah Rahimee</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal45; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Abdullah Rahimee is a WEB and Database Developer, and he is skillful person. He has background of developing many kind of appliaction for web and desktop. He has creative mind in web application developing.
+            <?php echo $modal46; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1585,30 +1580,27 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title text-center" id="myModalLabel"><b>PRIVACY POLICY </b></h2>
+        <h2 class="modal-title text-center" id="myModalLabel"><b><?php echo $privcy1; ?></b></h2>
         
       </div>
       <div class="modal-body" style="min-height:75%;">
         <div class="container">
           <div class="col-md-12 col-sm-12">
           <p>
-            This website is operated by TechNation where you may post Personal Information. Personal Information generally means information which might reasonably be used to specifically identify you and may include information such as your name, address, age, credit card details, email and phone number. We collect such personal information when you provide it to us, such as when you:
+          <?php echo $privcy2; ?>
           </p>
           <ul>
-            <li>Subscribe to iLabs</li>
-            <li>Register to post comments</li>
-            <li>Purchase software license or a product</li>
-            <li>Sign up for email newsletters</li>
-            <li>Participate in surveys</li>
-            <li>Communicate with us.</li>
+         <?php echo $privcy3; ?>
           </ul>
-          <p>Users contacting this website and/or its owners do so at their own discretion and provide any such personal details requested at their own risk. Your personal information is kept private and stored securely until a time it is no longer required or has no use. Every effort has been made to ensure a safe and secure form to email submission process but advise users using such form to email processes that they do so at their own risk. Please note that iLabs or TechNation is not responsible for the information you volunteer about yourself in the discussions in our forums, features, comments box or other publicly accessible interaction, or information that you choose to make public or other areas that allow users to upload or post content. We discourage users from posting personally identifiable information in this fashion, and any personally identifiable information you post to these areas is not covered by this Policy.</p>
-          </div>
+          <p>
+             <?php echo $privcy4; ?>
+          </p>
+           </div>
         </div>
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i>  Back to Home Page</button>
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><i class="fa fa-angle-left"></i><?php echo $back; ?></button>
         
       </div>
       
@@ -1625,13 +1617,13 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title text-center" id="myModalLabel"><b>Download Your Prefered Language</b></h2>
+        <h2 class="modal-title text-center" id="myModalLabel"><b> <?php echo $privcy5; ?></b></h2>
         
       </div>
       <div class="modal-body" style="height:70%;">
       <br><br>
         <div class="row">
-          <h5 class="text-center">In which language do you want to download?</h5>
+          <h5 class="text-center"> <?php echo $privcy6; ?></h5>
         </div>
         <br>
         <div class="row" >
@@ -1639,17 +1631,17 @@ He has developed web and mobile applications for Technation Afghanistan.
     <ul class="ds-btn">
      <li>
              <a class="btn btn-lg btn-info" href="upload/iLabs_Call for Application_En.pdf">
-          <i class="fa fa-download fa-3x pull-left"></i><span><b>In<br><small>English </small></b></span></a> 
+          <i class="fa fa-download fa-3x pull-left"></i><span><b> <?php echo $privcy7; ?></b></span></a> 
             
         </li>
         <li>
              <a class="btn btn-lg btn-primary" href="upload/iLabs_Call for Application_Ps.pdf">
-          <i class="fa fa-download fa-3x pull-left"></i><span>In<br><small>Pashto</small></span></a> 
+          <i class="fa fa-download fa-3x pull-left"></i><span> <?php echo $privcy8; ?></span></a> 
             
         </li>
         <li>
              <a class="btn btn-lg btn-warning " href="upload/iLabs_Call for Application_Dr.pdf">
-         <i class="fa fa-download fa-3x pull-left"></i><span>In<br><small>Dari</small></span></a> 
+         <i class="fa fa-download fa-3x pull-left"></i><span> <?php echo $privc9; ?></span></a> 
             
         </li>
     </ul>
@@ -1674,14 +1666,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Abdul Ghayoor Bawary</b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal47; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Abdul Ghayoor Bawary is the Founder /CEO of Experts Valley, also has found two more companies back in 2009 & 2012 as UPLS & Cactus Technologies respectively, Ghayoor has more than 8 years of Professional Experience in the field of Technology with various Local and International Organizations, and 4 years of Entrepreneurship skills. He also currently works as an ISP Engineer with MultiNet ISP AF.
+              <?php echo $modal48; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1713,14 +1705,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Naikbeen Naikpay </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal49; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Naikbeen Naikpay has more than 6 years of working experience in Information Technology. Psychology & Educational Science Graduate of Kabul University and holds Diploma in Information technology. He is CTO of RN Technologies since 2012 and Founder & CEO of SmartMaktab.
+              <?php echo $modal50; ?>             
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1752,14 +1744,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Jamshid Hashimi </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal51; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Jamshid Hashimi is CEO/Co-Founder at CodeZone. He has work experience of more than 6 years in system, software and web application development. Beyond CodeZone, Mr. Hashimi is the founder of the biggest developer community in Afghanistan, CodeWeekend, Global Web Manager and Executive team member at Afghan Professional Network (APn) and Apps for Good Expert at Apps for Good open-source education technology movement based in London.
+              <?php echo $modal52; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1792,14 +1784,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Halim Fida </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal53; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              
+              <?php echo $modal54; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1832,14 +1824,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Sanzar Kakar </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal55; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              
+              <?php echo $modal56; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1872,14 +1864,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Hamdullah Mohib </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal57; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              
+              <?php echo $modal58; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1911,14 +1903,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Israr Ahmad Khan </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal59; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              
+              <?php echo $modal60; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -1950,14 +1942,14 @@ He has developed web and mobile applications for Technation Afghanistan.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel"><b>Asad Hasan </b></h2>
+        <h2 class="modal-title <?php echo $txtcenterclass; ?>" id="myModalLabel"><b><?php echo $modal61; ?></b></h2>
         
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-8 col-sm-8 <?php echo $fclas; ?>">
             <p class="lead">
-              Mr. Asad Hasan is Communications, Online & Digital Media Expert who has almost 16 years qualifying experience in different forms of multimedia such as campaign communications, electronic & ads communications, online, social communications & digital print communications. He also has experience in building online & community presence for organizations via multimedia, imagery, websites, illustration & other forms of advertisement designing, development & implementation.
+              <?php echo $modal62; ?>
             </p>
           </div>
           <div class="col-md-4 col-sm-4">
